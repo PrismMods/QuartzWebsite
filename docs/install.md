@@ -19,6 +19,7 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 1. Make sure MelonLoader is installed (see above).
 2. Download `Quartz.zip` from the [releases page](https://github.com/QuartzTeam/Quartz/releases/latest).
 3. Extract it into your A Dance of Fire and Ice folder.
+4. Done — start the game and open the Quartz menu.
 
 !!! warning "macOS"
     Extracting a folder over another folder on macOS **replaces** the whole folder instead of merging. Drag the files in manually.
@@ -29,6 +30,9 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 2. Download `QuartzUmm.zip` from the [releases page](https://github.com/QuartzTeam/Quartz/releases/latest).
 3. In the UMM installer, use **Install mod** and pick `QuartzUmm.zip` — or extract the `Quartz` folder into your UMM mods directory manually.
 4. Open the in-game menu with the mod's keybind. Settings live there, not in the UMM panel.
+
+!!! warning "macOS"
+    Extracting a folder over another folder on macOS **replaces** the whole folder instead of merging. Drag the files in manually.
 
 ## Updating
 

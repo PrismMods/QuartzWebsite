@@ -35,11 +35,12 @@
 }
 
 .md-typeset a {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-.md-typeset a:hover {
-  text-decoration: underline;
+.md-typeset .md-button,
+.md-typeset a.headerlink {
+  text-decoration: none;
 }
 
 .md-typeset h1,
