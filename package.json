@@ -1,0 +1,16 @@
+{
+  "name": "quartz-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website and markdown documentation for Quartz.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "build": "node --check src/server.js && node --check src/public/app.js && node --check src/public/docs/docs.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
