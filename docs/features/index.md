@@ -32,6 +32,7 @@ All on the **Overlay** tab, alongside a master **Enable Overlays** switch and a 
 | [Otto Icon](otto-icon.md) | Customize the editor's Otto (auto-play) icon. |
 | [Tweaks](tweaks.md) | Small gameplay, menu, and results-screen adjustments. |
 | [Optimizer](optimizer.md) | Performance toggles: garbage-collection timing, process priority, bloom, and more. |
+| [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font to the game's own level title, countdown, and judgement popup. |
 
 ## Input & Restrictions
 

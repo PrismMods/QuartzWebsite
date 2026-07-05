@@ -91,6 +91,7 @@ nav:
           - Otto Icon: features/otto-icon.md
           - Tweaks: features/tweaks.md
           - Optimizer: features/optimizer.md
+          - In-Game Overlay Fonts: features/in-game-overlay.md
       - Input & Restrictions:
           - Key Limiter: features/key-limiter.md
           - Restriction: features/restriction.md
