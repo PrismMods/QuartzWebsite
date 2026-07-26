@@ -27,6 +27,7 @@ The editor is a zoomable canvas with the live key viewer on it:
 
 - **Note Rain** — streaks rise from a key while it's held, with speed, track height, fade, and reverse direction controls.
 - **Ghost rain** — a separate streak for an element's ghost key, solid or dashed/dotted with adjustable dot and gap length.
+- **Note length follows the press** — a streak is exactly as long as you held the key, so a quick tap and a longer hold are visibly different.
 - **Delayed notes** — optionally hold back very short presses so quick taps still draw a readable streak.
 
 ## Key input

@@ -4,7 +4,7 @@ Extend Quartz with community addons — self-contained plugins that can add thei
 
 ## Where to find it
 
-Open the Quartz menu in-game and pick **Addons** from the sidebar. Every addon you have installed is listed there, and that is where you add, reload, and remove them.
+Open the Quartz menu in-game and pick **Modules → Addons** from the sidebar. Every addon you have installed is listed there, and that is where you add, reload, and remove them.
 
 ## Installing an addon
 

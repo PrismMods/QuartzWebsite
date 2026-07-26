@@ -2,6 +2,8 @@
 
 A large set of toggles that restore older **A Dance of Fire and Ice** behavior — visuals, sounds, and editor conventions from before various updates changed them. Based on the community BackToThePast mod.
 
+Each of its four pages is a separate module, so you can install only the parts you want — see [Modules](modules.md).
+
 ## Where to find it
 
 Open the Quartz menu in-game and select **Nostalgia** from the sidebar. Its toggles are split across four pages there, sorted by what they affect:

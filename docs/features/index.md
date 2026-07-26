@@ -2,6 +2,12 @@
 
 Everything Quartz does lives in one in-game menu — a sidebar of categories on the left, with each category's pages on the right. This section documents each feature area — pages are added and updated as releases ship.
 
+## Managing Quartz
+
+| Feature | What it does |
+|---------|--------------|
+| [Modules](modules.md) | Install, remove, enable and disable every feature from inside the game, and hide whole sidebar tabs. |
+
 ## Overlays & HUD
 
 All under the **Overlay** category in the sidebar. Its **General** page holds the master **Enable Overlays** switch and the **Reorganize** button for dragging them into place.

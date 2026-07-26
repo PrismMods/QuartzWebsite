@@ -75,6 +75,7 @@ nav:
       - Troubleshooting: troubleshooting.md
   - Features:
       - features/index.md
+      - Modules: features/modules.md
       - Overlays & HUD:
           - Key Viewer: features/key-viewer.md
           - Combo: features/combo.md

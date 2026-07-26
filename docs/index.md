@@ -1,11 +1,14 @@
 # Quartz Documentation
 
-Quartz is an all-in-one mod for **A Dance of Fire and Ice**. It bundles gameplay overlays, editor tools, and visual tweaks into a single in-game menu.
+Quartz is a mod for **A Dance of Fire and Ice** that puts gameplay overlays, editor tools, and visual tweaks in a single in-game menu.
+
+Every feature is a module you install, remove, or switch off from inside the game, so you only carry what you use — see [Modules](features/modules.md). The **Home** tab shows your current setup at a glance.
 
 <div class="grid cards" markdown>
 
 - **[Install](install.md)** — get Quartz running with MelonLoader or UnityModManager.
 - **[Troubleshooting](troubleshooting.md)** — fix the most common setup problems.
+- **[Modules](features/modules.md)** — add, remove, and switch features on and off in-game.
 - **[Features](features/index.md)** — what Quartz can do, one page per feature.
 
 </div>
