@@ -1,0 +1,33 @@
+docs/features/modules.md
+  s_4758459650c24f::t_518f71faa6526c 1-49
+docs/features/addons.md
+  s_4758459650c24f::t_0079fa3fec7e1e 7
+docs/features/index.md
+  s_4758459650c24f::t_a3103a851abe69 5-10
+docs/features/key-viewer.md
+  s_4758459650c24f::t_693b9143109064 30
+docs/features/nostalgia.md
+  s_4758459650c24f::t_a0d195290d0a36 5-6
+docs/index.md
+  s_4758459650c24f::t_78007552c9c75e 3-5,11
+docs/install.md
+  s_4758459650c24f::t_80fa55632f58e7 47-48
+mkdocs.yml
+  s_4758459650c24f::t_fc35619aed9535 78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "343f7010ebc63e261a66906e7fba66b16803bb7d",
+  "prompts": {},
+  "sessions": {
+    "s_4758459650c24f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d544457d-b243-4ed8-a01b-7b5331b552df",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
