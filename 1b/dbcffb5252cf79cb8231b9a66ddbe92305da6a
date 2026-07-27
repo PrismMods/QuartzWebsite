@@ -1,0 +1,19 @@
+docs/features/addons.md
+  s_dd0035a49fb7d2::t_d1a57e2981030b 40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "1bdbcffb5252cf79cb8231b9a66ddbe92305da6a",
+  "prompts": {},
+  "sessions": {
+    "s_dd0035a49fb7d2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3fa3f501-86e0-4efa-8cc4-f4216865e0f3",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
