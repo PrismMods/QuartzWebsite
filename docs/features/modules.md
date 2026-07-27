@@ -16,7 +16,7 @@ The landing page shows how many modules are installed, how many are running, and
 | **Reload Modules** | Unloads everything, re-scans the module folder, and rebuilds the menu. |
 | **Open Folder** | Opens the module folder in your file browser. |
 
-Below that, **Tabs** lists every sidebar tab that can hold modules — **Overlay**, **Gameplay**, **Visuals**, **Tweaks**, **Editor**, **Nostalgia** and **TUF**. Each row has a switch that hides or shows that whole tab, a **Remove** button that deletes every module in it, and an expandable list of the modules themselves.
+Below that, **Tabs** lists every sidebar tab that can hold modules — **Overlay**, **Gameplay**, **Visuals**, **Tweaks**, **Editor**, **Nostalgia** and **TUF**. Each row has a switch that hides or shows that whole tab, an expandable list of the modules themselves, and up to two buttons: **Install All** whenever the tab still has something to offer, and **Remove** whenever it holds something already installed.
 
 !!! note "Hiding a tab is not the same as removing it"
     The switch only controls whether the tab appears in the sidebar — the modules keep running. Use **Remove** to actually uninstall.
@@ -36,6 +36,8 @@ Modules listed under **Get more features** install with one click. Two kinds app
 - **Catalog modules** — fetched from the latest release. Press **Refresh** first if you have been offline.
 
 Anything a module depends on is installed with it, in the right order.
+
+To set up a whole tab at once, press **Install All** on its row under **Tabs**. The bundled modules go in immediately, then everything left downloads as a single job with one progress readout — so you get one install to wait on rather than one per module.
 
 !!! warning "Restart to pick up an updated module"
     A module's code is only read from disk once per session. **Reload Modules** re-runs what is already loaded — after replacing a `.qmod` file, restart the game.
