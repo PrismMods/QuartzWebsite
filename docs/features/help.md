@@ -22,15 +22,15 @@ Each entry takes a `question`, an `answer`, and an optional `category` that grou
 {
   "entries": [
     {
-      "category": { "en-US": "Getting started", "ko-KR": "시작하기" },
-      "question": { "en-US": "What is Quartz?", "ko-KR": "Quartz가 뭔가요?" },
+      "category": { "en-US": "Getting started", "ko-KR": "시작하기", "zh-CN": "入门指南" },
+      "question": { "en-US": "What is Quartz?", "ko-KR": "Quartz가 뭔가요?", "zh-CN": "Quartz是什么？" },
       "answer": "An all-in-one mod for A Dance of Fire and Ice."
     }
   ]
 }
 ```
 
-An entry written for your language is used when Quartz is in that language, falling back to English and then to whatever the entry does have — so a half-translated file still reads sensibly. Answers accept rich text: `<b>bold</b>`, `<i>italic</i>`, `<color=#FF9999>color</color>`, and `<size=20>size</size>`.
+The questions that ship with Quartz are written in English, Korean, and Simplified Chinese. An entry written for your language is used when Quartz is in that language, falling back to English and then to whatever the entry does have — so a half-translated file still reads sensibly. Answers accept rich text: `<b>bold</b>`, `<i>italic</i>`, `<color=#FF9999>color</color>`, and `<size=20>size</size>`.
 
 !!! note
     `FAQ.json` is only written when it's missing, so updating Quartz never overwrites your edits. Delete the file and press **Reload** to bring the shipped questions back.

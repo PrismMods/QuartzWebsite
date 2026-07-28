@@ -14,8 +14,12 @@ Open the Quartz menu in-game and go to the **Editor** tab.
     - **Disable tile decorations** / **Disable planet decorations** additionally hide decorations attached to tiles or planets while BGA Mod is active. Background- and camera-anchored decorations stay visible either way.
 - **Flip & Rotate Tiles** — when you flip or rotate the selected tiles, optionally carry their **Position Track** event coordinates along, so anything placed by those events moves with the tiles.
     - **Adjust Position Track when flipping** and **Adjust Position Track when rotating** turn this on for flips and rotations respectively.
-    - **Use a custom rotation angle** rotates the selection by the **Rotation angle** you set instead of the default 90° (the 180° shortcut always stays 180°).
+    - **Use a custom rotation angle** rotates the selection by the **Rotation angle** you set instead of the default 90° (the 180° shortcut always stays 180°). Fractional angles like 22.5° are fine.
     - Shortcuts — flip horizontally (`Ctrl+L`), flip vertically (`Ctrl+Shift+L`), rotate counterclockwise (`Ctrl+,`), rotate clockwise (`Ctrl+.`), and rotate 180° (`Ctrl+/`).
+- **Decoration Preview** — **Preview decoration images in the list** replaces the generic icon beside each entry in the editor's decoration list with the decoration's own image, scaled to fit and shown at full brightness, so you can tell entries apart without selecting them. Text and object entries keep their generic icon, as does a particle whose image can't be found.
+
+!!! note "Credit"
+    Decoration Preview is a port of [DecoPreview](https://github.com/rdzip/DecoPreview) by rdzip, licensed under the GNU GPL v3.
 
 !!! note
     [Nostalgia](nostalgia.md) adds several more editor-specific toggles (legacy button positions/designs, old auto-play behavior, and more). They live on Nostalgia's own **Editor** page, reached from the **Nostalgia** sidebar tab — not this one.
