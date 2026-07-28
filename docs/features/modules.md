@@ -46,6 +46,8 @@ To set up a whole tab at once, press **Install All** on its row under **Tabs**. 
 
 Nothing is lost. The first time this version runs it reads the settings you already have and installs exactly the modules for the features you had switched on, copying them out of your download — so it works with no connection.
 
+The same applies when a module is later split in two: the new half is installed for you automatically, from your download, with the setting it inherits already in place. You never lose a feature because it moved.
+
 ## Addons
 
 Third-party addons live in this tab too, below the module tabs. See [Addons](addons.md).

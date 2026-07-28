@@ -34,6 +34,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 | [Planet Colors](planet-colors.md) | Customize planet and tail colors. |
 | [Nostalgia](nostalgia.md) | Restore older ADOFAI visuals, sounds, and editor conventions, from its own sidebar tab. |
 | [Effect Remover](effect-remover.md) | Strip distracting level effects, in Simple or Enhanced mode. |
+| [Hide Judgements](hide-judgements.md) | Hide the game's own per-hit judgement popups, one grade at a time. |
 | [UI Hider](ui-hider.md) | Hide parts of the game's own UI, with separate Playing/Recording profiles. |
 | [Otto Icon](otto-icon.md) | Customize the editor's Otto (auto-play) icon. |
 | [Tweaks](tweaks.md) | Small gameplay, menu, and results-screen adjustments. |
@@ -58,7 +59,7 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 |---------|--------------|
 | [Profiles](profiles.md) | Keep a profile per setup, switch between them, share them as files, and start from a ready-made preset. |
 | [Auto Deafen](auto-deafen.md) | Discord-integrated automatic deafen while playing. |
-| Play Count | Tracks attempts and your best clean-progress run per level, in the background. Surface it on a [Panels](panels.md) stat panel. |
+| Play Count | Tracks attempts and your best clean-progress run per level, in the background — runs played with auto on are left out. Surface it on a [Panels](panels.md) stat panel. |
 
 ## TUF
 

@@ -46,5 +46,11 @@ Download the newest build and install it the same way you installed Quartz the f
 
 Your features come across untouched: the first launch after updating reads the settings you already have and installs the matching modules for you, using copies inside the download rather than the network. From then on you manage them yourself in the **Modules** tab.
 
+### Restarting to apply it
+
+An installed update only takes effect the next time the game starts. Once one finishes installing, a **Restart Game** button appears both on the notification in the corner and in **Settings**; it asks once — the button changes to **Restart now?** — and then closes the game and brings it straight back. Quartz saves your settings first, and returns through Steam if that is how you launched the game.
+
+If it can't work out how to relaunch, it says so and leaves the game running, so you can close and reopen it yourself. Nothing is lost either way — the update is already on disk and applies on the next launch.
+
 !!! note
     Quartz's in-app updater checks a downloaded update against its published checksum before installing, so a corrupted or interrupted download can't be applied. If it reports a verification failure, just try the update again.
