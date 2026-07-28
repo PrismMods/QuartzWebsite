@@ -1,0 +1,24 @@
+docs/features/editor.md
+  s_05ba7c70196809::t_f46af0b1dd024e 17,19
+  s_05ba7c70196809::t_5b1d5be40dc50f 21-22
+  s_05ba7c70196809::t_1f9bdf86b3330e 20
+docs/features/help.md
+  s_05ba7c70196809::t_6262933a165adb 25-26
+  s_05ba7c70196809::t_0847980ed2be06 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "c8f011d7569db78d5e1f87b609f2181da78a3e1d",
+  "prompts": {},
+  "sessions": {
+    "s_05ba7c70196809": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "24e3ad21-42f8-4cb2-a251-640334d9f67b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
