@@ -23,13 +23,15 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 
 The button on each card walks through the whole flow: **Download** fetches and unpacks the level, then turns into **Load**, which opens the chart directly in the editor — no manual file handling. If an archive contains several playable charts, a chooser lists them so you can pick.
 
+**Load** works from anywhere, including the middle of a run. If you're playing a level when you press it, Quartz leaves play mode for you and opens the new chart in the editor you were already in.
+
 Some cards are the game's own built-in levels rather than downloads. These show **Play**, which opens the real in-game level directly, or **Buy DLC** — opening the store page — when the chart belongs to DLC you don't own.
 
 !!! note
     Downloads come only from TUF's own servers over HTTPS, and archives are checked during extraction — unsafe entries are rejected. Downloaded levels are cached, so loading a level again is instant.
 
-!!! tip
-    If the editor has unsaved changes, Quartz refuses to replace them — save or discard first, then load the TUF level again.
+!!! tip "Unsaved editor changes"
+    If the level open in the editor has changes you haven't saved, Quartz asks before replacing it. **Save** writes the level and carries on loading, **Discard** throws the changes away and carries on, and **Cancel** leaves everything exactly as it was.
 
 Levels can be big — a heavily decorated one runs to hundreds of megabytes of backgrounds — so there's no fixed size limit. Quartz checks the free space on whichever drive your library lives on instead, and if a level genuinely won't fit it says how much it needs and how much you have before downloading anything.
 
