@@ -2,7 +2,9 @@
 
 Quartz is a mod for **A Dance of Fire and Ice** that puts gameplay overlays, editor tools, and visual tweaks in a single in-game menu.
 
-Every feature is a module you install, remove, or switch off from inside the game, so you only carry what you use — see [Modules](features/modules.md). The **Home** tab shows your current setup at a glance.
+Every feature is a module you install, remove, or switch off from inside the game, so you only carry what you use — see [Modules](features/modules.md).
+
+The **Home** tab is where the menu opens. It counts your installed modules, how many are running, your addons, and any module updates waiting — and each of those cards is also the way in, so clicking one opens the page it counts. When a Quartz update is available it says so in a banner across the top, with a button straight to **Settings**. The **Credits** tab lists the team, the mods Quartz has ported or drawn from, the testers, and the people who have supported it.
 
 <div class="grid cards" markdown>
 

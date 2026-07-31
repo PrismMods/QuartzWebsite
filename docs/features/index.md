@@ -6,7 +6,7 @@ Everything Quartz does lives in one in-game menu — a sidebar of categories on 
 
 | Feature | What it does |
 |---------|--------------|
-| [Modules](modules.md) | Install, remove, enable and disable every feature from inside the game, and hide whole sidebar tabs. |
+| [Modules](modules.md) | Install, update, remove, enable and disable every feature from inside the game, and hide whole sidebar tabs. |
 
 ## Overlays & HUD
 
