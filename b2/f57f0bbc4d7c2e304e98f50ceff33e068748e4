@@ -1,0 +1,25 @@
+docs/features/countdown.md
+  s_f7e9406c1140a9::t_eebfa089e2bec3 19-20
+docs/troubleshooting.md
+  s_f7e9406c1140a9::t_0a568914593311 23-28
+docs/features/modules.md
+  s_f7e9406c1140a9::t_0b343c4f70c3dc 66-69
+docs/install.md
+  s_f7e9406c1140a9::t_8af496991c494f 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b2f57f0bbc4d7c2e304e98f50ceff33e068748e4",
+  "prompts": {},
+  "sessions": {
+    "s_f7e9406c1140a9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c6c1e6ea-e178-4047-a863-a73d517c8067",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
