@@ -20,6 +20,12 @@ If the same setting keeps resetting, the log line is the thing to include when y
 
 Restart Steam and confirm only one Quartz package is installed. Remove any leftover `Koren.dll` from older installs — Quartz migrates old Koren data automatically, but the old DLL itself should not stay loaded.
 
+## A fix shipped but the feature still behaves the old way
+
+Compare the module's version, shown on its row under **Modules → All Modules**, with the Quartz version on **Home**. Builds up to `v2.0.0-alpha-102` wrote a module into your install only once, so a module could sit several builds behind the mod around it and never receive a fix that shipped inside it.
+
+`v2.0.0-alpha-103` and newer refresh your modules whenever Quartz updates. The repair lives in the mod rather than in the modules, though, so an install that is already behind catches up on the update *after* the one that brings it in. To fix a single module right away, press **Update** on its row, or **Remove** it and install it again.
+
 ## The in-app updater never offers a new build
 
 Start with the channel picker at the top of **Updates** in **Settings**. The updater only offers builds from the channel you picked and the stabler ones above it, so a **Stable** setting stays quiet for as long as only prereleases are being published.

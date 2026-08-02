@@ -63,6 +63,10 @@ When more than one module on a page has an update waiting, an **Update All** but
 !!! warning "Restart to finish an update"
     A module's code is only read from disk once per session, so a freshly updated module keeps running the old copy until you restart — the row says **Updated — restart the game to apply.** until you do. This applies to replacing a `.qmod` file by hand too; **Reload Modules** only re-runs what is already loaded.
 
+### When Quartz itself updates
+
+Installing a new build of Quartz brings your modules along with it. Anything the download carries a newer copy of is rewritten in place, so a fix that shipped inside a module reaches you without a trip to **All Modules**. A module you took from the catalog that is already ahead of the bundled copy is left where it is, and one you never installed is not pulled in.
+
 ## Upgrading from an older Quartz
 
 Nothing is lost. The first time this version runs it reads the settings you already have and installs exactly the modules for the features you had switched on, copying them out of your download — so it works with no connection.

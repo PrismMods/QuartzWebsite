@@ -44,7 +44,7 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 
 Download the newest build and install it the same way you installed Quartz the first time. If the game keeps loading the old version, restart Steam and confirm only one Quartz package is installed.
 
-Your features come across untouched: the first launch after updating reads the settings you already have and installs the matching modules for you, using copies inside the download rather than the network. From then on you manage them yourself in the **Modules** tab.
+Your features come across untouched: the first launch after updating reads the settings you already have and installs the matching modules for you, using copies inside the download rather than the network. From then on you manage them yourself in the **Modules** tab, and every later update refreshes any module it carries a newer copy of — see [Modules](features/modules.md).
 
 ### Choosing which builds you get
 

@@ -16,6 +16,8 @@ Keeps the game's own countdown but slows it down. The speed of the lead-in tiles
 
 The music is never re-pitched. The audio seek is pulled back by however much the lead-in grew, so your first hit still falls on its real beat — the countdown gets longer without the song getting slower.
 
+Only the ticks and the travel between tiles slow down. A pause, free roam or hold sitting on one of those tiles keeps the length the chart gives it, so starting from a paused tile waits exactly as long as it should and the music underneath stays where it belongs.
+
 ## Metronome
 
 Freezes the planets on the next manual tile's Pure Perfect timing while a metronome loops, and resumes the run from that exact timestamp on your first input. Instead of counting a lead-in, you sit on the beat until you're ready and then go.
