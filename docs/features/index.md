@@ -19,7 +19,7 @@ All under the **Overlay** category in the sidebar. Its **General** page holds th
 | [Judgement](judgement.md) | Hit judgement count display. |
 | [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar or a thin line along the screen edge. |
 | [Song Title](song-title.md) | Shows the current song's artist and title in-game. |
-| [Panels](panels.md) | Build your own stat overlays from any tracked stat. |
+| [Panels](panels.md) | Build your own stat overlays from any tracked stat, plus your own text and images. |
 
 ## Editor
 
