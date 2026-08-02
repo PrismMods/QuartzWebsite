@@ -1,0 +1,26 @@
+docs/install.md
+  s_9605f8a13e30be::t_560219c2ae7d4d 8
+  s_9605f8a13e30be::t_f1b21c7df98f7d 5,12,23,33
+docs/features/addons.md
+  s_9605f8a13e30be::t_ec474501710e59 40
+docs/index.md
+  s_9605f8a13e30be::t_332395e2eb885f 62
+docs/troubleshooting.md
+  s_9605f8a13e30be::t_cd1d6479fcc6af 32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.19",
+  "base_commit_sha": "421b729843bd938dec7ec230d2d02a0730c794b2",
+  "prompts": {},
+  "sessions": {
+    "s_9605f8a13e30be": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fe1ce82d-b4fe-4b3b-b894-fca33ea7c5b4",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
