@@ -29,7 +29,7 @@ Quartz checks a downloaded update's checksum before installing it, so a corrupte
 Use the latest build's page directly:
 
 ```text
-https://github.com/PrismMods/Quartz/releases/tag/latest-beta
+https://github.com/PrismMods/Quartz/releases/tag/latest-alpha
 ```
 
 ## A level refuses to load because it requires mods

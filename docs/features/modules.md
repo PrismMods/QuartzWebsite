@@ -58,6 +58,8 @@ When the catalog has a newer build of something you have installed, an **Update*
 
 Quartz counts these for you: the summary at the top of **All Modules** says how many are waiting, and an **Updates available** card appears on the **Home** page.
 
+When more than one module on a page has an update waiting, an **Update All** button appears next to **Install All** and takes them all in one download rather than one press each. It stays hidden the rest of the time, so it never sits there duplicating a single module's own **Update** button.
+
 !!! warning "Restart to finish an update"
     A module's code is only read from disk once per session, so a freshly updated module keeps running the old copy until you restart — the row says **Updated — restart the game to apply.** until you do. This applies to replacing a `.qmod` file by hand too; **Reload Modules** only re-runs what is already loaded.
 

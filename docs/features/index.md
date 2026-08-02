@@ -52,6 +52,7 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 | [Chatter Blocker](chatter-blocker.md) | Drop rapid repeat presses from a chattering key. |
 | [Calibration](calibration.md) | Tune your input offset from real play — on-death popup, decimal offset, detailed readout, and per-map timing history. |
 | [Practice Difficulty](practice.md) | Bind keys to a difficulty and a pitch, and switch between them without leaving the level. |
+| [Countdown](countdown.md) | Replace the checkpoint and editor play-test countdown with a slowed-down lead-in, or a metronome you start yourself. |
 
 ## Utility
 

@@ -2,14 +2,14 @@
 
 Quartz ships two zips per release — pick the one that matches your loader. If you don't have a loader yet, use MelonLoader.
 
-[Download the latest build :material-download:](https://github.com/PrismMods/Quartz/releases/tag/latest-beta){ .md-button .md-button--primary }
+[Download the latest build :material-download:](https://github.com/PrismMods/Quartz/releases/tag/latest-alpha){ .md-button .md-button--primary }
 
 !!! note
-    Quartz is still in beta, so every build is published as a pre-release. `latest-beta` always points at the newest one, and the links on this page follow it — they never go stale.
+    Quartz is still in alpha, so every build is published as a pre-release. `latest-alpha` always points at the newest one, and the links on this page follow it — they never go stale.
 
 ## MelonLoader (recommended)
 
-1. Download the [modlist.org app](https://github.com/modlist-org/modlist_org_app/releases/latest) and [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-beta/Quartz.zip).
+1. Download the [modlist.org app](https://github.com/modlist-org/modlist_org_app/releases/latest) and [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/Quartz.zip).
 2. If MelonLoader isn't installed yet, install it through the modlist.org app.
 3. Press **Install Mod From File** and select `Quartz.zip`.
 4. Done — start the game and open the Quartz menu.
@@ -20,7 +20,7 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 ### Manual install
 
 1. Make sure MelonLoader is installed (see above).
-2. Download [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-beta/Quartz.zip), or pick a build from the [releases page](https://github.com/PrismMods/Quartz/releases).
+2. Download [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/Quartz.zip), or pick a build from the [releases page](https://github.com/PrismMods/Quartz/releases).
 3. Extract it into your A Dance of Fire and Ice folder.
 4. Done — start the game and open the Quartz menu.
 
@@ -30,7 +30,7 @@ Quartz ships two zips per release — pick the one that matches your loader. If 
 ## UnityModManager
 
 1. Make sure UnityModManager is set up for A Dance of Fire and Ice.
-2. Download [`QuartzUmm.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-beta/QuartzUmm.zip), or pick a build from the [releases page](https://github.com/PrismMods/Quartz/releases).
+2. Download [`QuartzUmm.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/QuartzUmm.zip), or pick a build from the [releases page](https://github.com/PrismMods/Quartz/releases).
 3. In the UMM installer, use **Install mod** and pick `QuartzUmm.zip` — or extract the `Quartz` folder into your UMM mods directory manually.
 4. Open the in-game menu with the mod's keybind. Settings live there, not in the UMM panel.
 
