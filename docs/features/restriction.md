@@ -21,6 +21,15 @@ Instantly fails the run the moment a hit breaks a rule you choose:
 
 The fail screen shows a message you can customize, with `{judgement}` standing in for whichever judgement broke the run.
 
+### Restricting only part of a level
+
+By default the rule covers the whole chart. Turn on **Restrict Only In Sections** to narrow it to the stretches you actually want to drill: press **Add Section** and set that section's **Start (%)** and **End (%)** to a percentage range of the level. Hits taken inside a range are judged exactly as above; everywhere else the restriction stays out of the way, so a slip in the easy half doesn't end a run you started for the one transition you keep dropping.
+
+Sections can overlap, order doesn't matter, and you can have up to 16 of them. **Remove** deletes one.
+
+!!! warning "Sections on, but none added, fails nothing"
+    With the toggle on and an empty section list there is nowhere for the rule to apply, so no hit can ever end the run. The page says as much in place of the list — add a section, or turn the toggle back off to restrict the whole level.
+
 ## Death Limit
 
 Fails the run once too many misses or overloads pile up, instead of on the first one:
