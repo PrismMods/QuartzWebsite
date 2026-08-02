@@ -46,6 +46,12 @@ Download the newest build and install it the same way you installed Quartz the f
 
 Your features come across untouched: the first launch after updating reads the settings you already have and installs the matching modules for you, using copies inside the download rather than the network. From then on you manage them yourself in the **Modules** tab.
 
+### Choosing which builds you get
+
+Quartz publishes on four channels, and the picker at the top of **Updates** in **Settings** — just above **Check for Updates** — decides which one you follow. **Alpha** is where new builds land first; **Beta** and **Release Candidate** are quieter; **Stable** is final releases only. Each step up accepts fewer builds.
+
+The updater then stays in the channel you chose. On **Alpha** you are offered the newest alpha rather than a beta of the same version, and a final release still replaces the prereleases it was built from. Changing the setting takes effect on the next check, so press **Check for Updates** to see what the new channel has for you.
+
 ### Restarting to apply it
 
 An installed update only takes effect the next time the game starts. Once one finishes installing, a **Restart Game** button appears both on the notification in the corner and in **Settings**; it asks once — the button changes to **Restart now?** — and then closes the game and brings it straight back. Quartz saves your settings first, and returns through Steam if that is how you launched the game.
