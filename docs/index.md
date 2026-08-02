@@ -59,7 +59,7 @@ Translations keep themselves up to date. The languages bundled with your build l
 
 ## Links
 
-- [Latest build](https://github.com/PrismMods/Quartz/releases/tag/latest-alpha)
+- [Latest build](https://github.com/PrismMods/Quartz/releases/tag/latest-beta)
 - [All releases](https://github.com/PrismMods/Quartz/releases)
 - [GitHub repository](https://github.com/PrismMods/Quartz)
 - [Discord](https://discord.gg/mAzAghu5Xq)
