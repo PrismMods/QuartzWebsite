@@ -1,0 +1,19 @@
+docs/troubleshooting.md
+  s_f7e9406c1140a9::t_0b60fe6a850f47 27-33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b102d143466859dbeaa47bbf925e84ac8f425d09",
+  "prompts": {},
+  "sessions": {
+    "s_f7e9406c1140a9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c6c1e6ea-e178-4047-a863-a73d517c8067",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
