@@ -47,7 +47,7 @@ A bound toggle can be flipped without opening the menu at all — including mid-
 
 ## Language
 
-Quartz's menu ships in English, Korean, and Simplified Chinese. Switch from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文). Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to the game's own CJK font for the characters your font is missing.
+Quartz's menu ships in English, Korean, and Simplified Chinese. On its first launch it matches the language you play the game in — a Korean game gets Korean menus, with no trip to the settings — and stays on English when it ships no translation for that language. Switch at any time from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文) — and once you pick one by hand, Quartz keeps it and stops matching the game. Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to the game's own CJK font for the characters your font is missing.
 
 Translations keep themselves up to date. The languages bundled with your build load immediately, so the menu never waits on the network; in the background Quartz then checks the community translation repo, [Quartz-i18n](https://github.com/PrismMods/Quartz-i18n), and quietly folds in anything newer. A corrected Korean string reaches you without waiting for a Quartz release, and a language added to that repo shows up in the dropdown on its own. **Reload** forces the check immediately and re-applies the result.
 
