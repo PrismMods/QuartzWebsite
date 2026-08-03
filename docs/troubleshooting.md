@@ -24,7 +24,13 @@ Restart Steam and confirm only one Quartz package is installed. Remove any lefto
 
 Compare the module's version, shown on its row under **Modules → All Modules**, with the Quartz version on **Home**. Builds up to `v2.0.0-alpha-102` wrote a module into your install only once, so a module could sit several builds behind the mod around it and never receive a fix that shipped inside it.
 
-`v2.0.0-alpha-103` and newer refresh your modules whenever Quartz updates. The repair lives in the mod rather than in the modules, though, so an install that is already behind catches up on the update *after* the one that brings it in. To fix a single module right away, press **Update** on its row, or **Remove** it and install it again.
+`v2.0.0-alpha-103` and newer refresh your modules whenever Quartz updates. The repair lives in the mod rather than in the modules, though, so an install that is already behind catches up on the update *after* the one that brings it in. To fix a single module right away, **Remove** it and install it again — the copy inside your download goes back in, with your settings intact.
+
+## A module offers an update to an older version
+
+If a row reads `v2.0.0-alpha-103` with an update waiting for `v2.0.0-alpha-102`, the module list is comparing against a catalog that has fallen behind your install. On `v2.0.0-alpha-103` this offer was real and taking it put the older file back, so leave it alone and update Quartz itself to `v2.0.0-alpha-104` or newer, where only a genuinely newer build is ever offered.
+
+Press **Refresh** on **Modules → All Modules** to pull the catalog again if a row still looks wrong afterwards.
 
 ## The in-app updater never offers a new build
 
