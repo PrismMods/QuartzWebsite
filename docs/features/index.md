@@ -12,6 +12,8 @@ Everything Quartz does lives in one in-game menu — a sidebar of categories on 
 
 All under the **Overlay** category in the sidebar. Its **General** page holds the master **Enable Overlays** switch and the **Reorganize** button for dragging them into place.
 
+Reorganize hides the settings window and puts an **Exit Reorganize** button at the top of the screen; every overlay becomes draggable until you click it. If the button covers the overlay you are trying to move, hold it for about a second — it changes colour, and from there you can drag the button itself anywhere on screen. Where you leave it is remembered, and a middle click puts it back at the top.
+
 | Feature | What it does |
 |---------|--------------|
 | [Key Viewer](key-viewer.md) | Free-form layout editor for an on-screen key display — press counters, KPS, rain effects, pattern hiding, and DM Note-compatible presets and CSS. |
