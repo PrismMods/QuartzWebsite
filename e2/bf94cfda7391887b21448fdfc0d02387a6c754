@@ -1,0 +1,19 @@
+docs/features/countdown.md
+  s_d001fd66482c73::t_e0be369a5ec7aa 28-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "e2bf94cfda7391887b21448fdfc0d02387a6c754",
+  "prompts": {},
+  "sessions": {
+    "s_d001fd66482c73": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "430f9a94-b4ed-46e0-99db-9f9c8177505d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
