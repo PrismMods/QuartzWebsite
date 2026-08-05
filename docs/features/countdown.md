@@ -25,6 +25,8 @@ Freezes the planets on the next manual tile's Pure Perfect timing while a metron
 !!! note
     Metronome mode runs during level-editor play-tests only. Haywire is the mode that applies everywhere.
 
+    Autoplay wins over the freeze. Start a play-test with autoplay already on and the metronome sits out, and switching autoplay on while frozen releases the planets straight away.
+
 - **Show the metronome panel** — puts a small panel at the bottom of the screen while the start is frozen, so you can change tempo and meter without leaving the play-test. What you set there is saved back into these settings.
 - **Show the metronome icon** — draws a metronome in the middle of the screen that swings with every click.
 - **Animate the planets while frozen** — loops the planet's approach to the next tile in time with the clicks, so the landing point stays readable. Turn it off to leave the planets perfectly still.
