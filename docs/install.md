@@ -71,4 +71,4 @@ An installed update only takes effect the next time the game starts. Once one fi
 If it can't work out how to relaunch, it says so and leaves the game running, so you can close and reopen it yourself. Nothing is lost either way — the update is already on disk and applies on the next launch.
 
 !!! note
-    Quartz's in-app updater checks a downloaded update against its published checksum before installing, so a corrupted or interrupted download can't be applied. If it reports a verification failure, just try the update again.
+    Quartz's in-app updater checks a downloaded update against its published checksum before installing, so a corrupted or interrupted download can't be applied. The install itself is staged and rolls back on failure, so an update that goes wrong partway leaves your current version untouched. If it reports a verification failure, just try the update again.

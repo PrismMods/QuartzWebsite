@@ -24,9 +24,11 @@ Each installed addon gets a row on the **Addons** page showing its name, version
 
 - **Enable / disable** — the toggle on each row turns an addon on or off. A disabled addon stays installed but does not load.
 - **Reload Addons** — unloads everything, re-scans the folder from disk, and rebuilds the list. Use it after adding or updating a file, without restarting the game.
-- **Remove** — deletes the addon's file and its saved settings from disk. It asks once to confirm before deleting, and it cannot be undone.
+- **Remove** — deletes the addon's file, its saved settings, and its data folder from disk. It asks once to confirm before deleting, and it cannot be undone.
 
-If an addon fails to load, its row shows the error rather than taking the rest of Quartz down with it.
+If an addon fails to load, its row shows the error rather than taking the rest of Quartz down with it. That includes an addon built for an older Quartz — it is caught while loading and reports what no longer matches — and an addon whose requirements are missing, whose row says which addon to install or enable.
+
+An addon that publishes its releases on GitHub can tell Quartz where to look: when a newer version is out, its row says so, and clicking that line opens the release page. Addons can also put small action buttons on their row — utility commands the addon author chose to expose.
 
 !!! warning
     An addon runs as part of Quartz and has the same access to the game that Quartz does. Only install addons from people you trust.
@@ -39,4 +41,4 @@ An addon can register its own settings page. When it does, that page appears und
 
 Addons are built against the **QuartzAddon SDK**: a project `.props` file and a short guide live in the [Quartz repository](https://github.com/PrismMods/Quartz) under `sdk/`, and the reference assembly they need is attached to every release as `QuartzAddon.dll`. Download it next to the `.props` file — [this link](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/QuartzAddon.dll) always serves the newest alpha. You reference the SDK, subclass the addon base type, and build; the result is a `.qaddon` you drop into `UserData/Quartz/Addons`. Because it compiles against Quartz's public surface, the same `.qaddon` runs on both the MelonLoader and UnityModManager builds.
 
-Through the SDK an addon can log messages, save its own settings, register [Panels](panels.md) stats and text tags, add settings pages, and patch the game — the same tools Quartz's own features are built on.
+Through the SDK an addon can log messages, save its own settings, register [Panels](panels.md) stats and text tags, add settings pages, and patch the game — the same tools Quartz's own features are built on. An addon can also get a whole settings tab generated from its settings class with one call, declare dependencies on other addons, call other addons without referencing them, ship its own translations, store files in a per-addon data folder, and detect whether it is running under MelonLoader or UnityModManager. A fully worked example addon lives in the repository under `examples/AddonExample`.

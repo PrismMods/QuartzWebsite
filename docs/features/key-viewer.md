@@ -48,10 +48,10 @@ Presses keep counting underneath the whole time, so nothing is lost from your co
 
 ## Saving and sharing layouts
 
-- **Import** — load a Quartz `.qkv` or a DM Note preset JSON straight into a layout tab, including any custom CSS the preset embeds. **Open Presets Folder** jumps to where they live.
+- **Import** — load a Quartz `.qkv` or a DM Note preset JSON straight into a layout tab, including any custom CSS and embedded images the preset carries; embedded pictures are checked and decoded safely before they render. **Open Presets Folder** jumps to where they live.
 - **Export .qkv (Quartz)** — Quartz's own format: the layout *and* every Key Viewer setting, including your press counts. This is the one to send someone else running Quartz, or to carry a setup to another install.
 - **Export .json (DM Note)** — a plain DM Note preset, for sharing with DM Note users. Anything DM Note has no concept of — ghost keys, pressed labels, per-key KPS, foot-row markers, note shadows, press scaling, and the rest — can't come along, and the export names exactly what it left behind rather than dropping it quietly.
-- **Custom CSS** — layer a DM Note custom CSS file over the layout. Quartz ships its own CSS engine for this, so existing DM Note skins keep working.
+- **Custom CSS** — layer a DM Note custom CSS file over the layout. Quartz ships its own CSS engine for this, so existing DM Note skins keep working. Skins that pull fonts or images from the web now download them through a capped, time-limited fetcher, so a huge or hung download can't stall the game.
 - **KPS graph** — skins can declare a live line or bar graph through the CSS `--graph-*` variables. The graph spans the full time window set by `--graph-speed` (500–5000 ms).
 
 ## JavaScript plugins
