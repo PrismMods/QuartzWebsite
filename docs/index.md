@@ -21,14 +21,16 @@ One Quartz build runs on both the current **A Dance of Fire and Ice** 3.x releas
 
 ## Choosing a loader
 
-Every release ships two zips:
+Every release ships full Quartz and a focused standalone Key Viewer for both loaders:
 
 | Package | Loader | When to pick it |
 |---------|--------|-----------------|
 | `Quartz.zip` | [MelonLoader](https://melonwiki.xyz/) | **Recommended** for most players. |
 | `QuartzUmm.zip` | [UnityModManager](https://www.nexusmods.com/site/mods/21) | Only if your ADOFAI setup already runs UMM. |
+| `QuartzKeyViewer.zip` | MelonLoader | When you want the Key Viewer without the rest of Quartz. |
+| `QuartzKeyViewerUmm.zip` | UnityModManager | The same focused Key Viewer for an existing UMM setup. |
 
-Both packages expose the same in-game Quartz menu and settings once loaded.
+The two full packages expose the same Quartz menu and settings. The standalone packages open directly to one Key Viewer page and keep their files separate from full Quartz. Install one or the other, not both.
 
 !!! note
     The UMM build does **not** use UMM's IMGUI settings panel — settings live in Quartz's own menu, opened with the mod's keybind.
@@ -38,6 +40,9 @@ Both packages expose the same in-game Quartz menu and settings once loaded.
 Menu-wide options live on the **Settings** page, separate from the individual feature tabs.
 
 - **Block game inputs while menu is open** — on by default. While the Quartz menu is up, the game underneath ignores input entirely, so you can't accidentally restart, pause, or land hits on the level behind the panel. Autoplay is exempt, so a run left playing behind the menu keeps going.
+- **Wide color picker** — lays color controls out side by side instead of stacking them, which keeps the popup usable on shorter windows. Color settings open in a responsive popup with direct hex and channel controls either way.
+
+The menu shortcut pauses while a text field is focused, so typing a bound key cannot close the menu underneath you.
 
 ### Per-setting hotkeys
 

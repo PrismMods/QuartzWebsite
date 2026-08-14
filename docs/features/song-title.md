@@ -9,6 +9,7 @@ Open the Quartz menu in-game and pick **Overlay → Song Title** from the sideba
 ## Highlights
 
 - **Format — use {artist} and {title}** — a template string, so you can arrange them however you like (`{artist} - {title}`, `{title} by {artist}`, just `{title}`, and so on).
+- **Strip Rich Text** — remove rich-text tags such as size and color formatting, plus line breaks, so chart titles stay on one plain-text line.
 - **Font Size** and **Master Size** for scaling the text; **Text Color** for its color.
 - **Shadow** — an offset, soft-edged text shadow with its own color, independent of the label color.
 

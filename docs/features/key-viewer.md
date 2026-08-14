@@ -1,10 +1,10 @@
 # Key Viewer
 
-An on-screen key display with per-key press counters, KPS (keys per second), and a total counter — built in a free-form layout editor where every element is dragged, resized, and styled directly on a canvas. It speaks DM Note's preset format natively, so existing DM Note presets import losslessly, and it has its own `.qkv` format for carrying a whole setup between Quartz installs.
+An on-screen key display with per-key press counters, KPS (keys per second), and a total counter — built in a free-form layout editor where every element is dragged, resized, and styled directly on a canvas. It speaks DM Note's preset format natively, so existing DM Note presets import losslessly, and it has its own `.qkv` format for carrying a whole setup between Quartz installs. You can use it inside full Quartz or install the [standalone Key Viewer](../install.md#standalone-key-viewer).
 
 ## Where to find it
 
-Open the Quartz menu in-game and select **Overlay → Key Viewer** from the sidebar.
+In full Quartz, open the menu in-game and select **Overlay → Key Viewer** from the sidebar. The standalone edition opens directly to the same Key Viewer page.
 
 ## The layout editor
 
@@ -15,6 +15,7 @@ The editor is a zoomable canvas with the live key viewer on it:
 - **Add elements** — **Add Key**, **Add Stat** (KPS, average and max KPS, total), and **Add Graph** (a live KPS line or bar graph).
 - **Built-in styles** — the **Style** selector seeds a tab from a preset layout, from small key rows up to a full **108 Keys** keyboard, as a starting point to rearrange and restyle.
 - **Inspector** — the panel beside the canvas styles whatever is selected, in tabs: **Element** (position, size, binding), **Rain**, **Counter**, **Style**, and **Settings**. Select several elements to edit their shared properties at once.
+- **Color controls** — select any color row to open a compact popup with a color wheel, a direct hex field, and RGB or HSV channel sliders. In full Quartz, **Wide color picker** on the main **Settings** page puts the wheel and controls side by side for shorter displays.
 - **Per-key input** — **Rebind Key** captures a new binding with a click, **Set Ghost Key** gives an element a secondary key for ghost rain, **Count Toward Total** and **Hidden** are per-element.
 - **Labels and counters, per element** — **Show Label** turns an element's label off so the counter spreads over the whole box, leaving the box, border, and rain untouched. **Label While Pressed (empty = same)** gives a key a second label shown only while it's held. **Show Counter While Pressing** (on the **Counter** tab) hides the counter for as long as the key is down and brings it back on release, keeping its space reserved so nothing shifts.
 - **Tabs** — keep several layouts side by side (each with its own **Tab Name**) and switch between them.
@@ -53,6 +54,20 @@ Presses keep counting underneath the whole time, so nothing is lost from your co
 - **Custom CSS** — layer a DM Note custom CSS file over the layout. Quartz ships its own CSS engine for this, so existing DM Note skins keep working.
 - **KPS graph** — skins can declare a live line or bar graph through the CSS `--graph-*` variables. The graph spans the full time window set by `--graph-speed` (500–5000 ms).
 
+## JavaScript plugins
+
+The **JavaScript Plugins** section is in the editor's **Settings** inspector tab. It runs DM Note-style `.js` and `.mjs` plugins that can add declarative HTML, CSS, or SVG panels, react to keyboard input, read live stats, use timers, and keep private plugin data.
+
+- **Enable JavaScript Plugins** controls the whole engine and is off by default. Turn it off to pause every imported plugin without removing any of them.
+- **Import JavaScript Plugin** copies the selected file into your Key Viewer settings, enables JavaScript, and enables that plugin. Reopen **Settings** to see its individual toggle.
+- **Reload Plugin Files** reads each original file path again, so edits made to those files replace the copies stored in Key Viewer.
+- **Remove All Plugins** removes every imported plugin. Private data created by those plugins remains isolated on disk.
+
+!!! warning
+    Only import JavaScript plugins you trust. Quartz limits each plugin in a sandbox with no browser DOM, Node.js, network API, or CLR bridge, but a plugin is still code.
+
 ## Key Limiter sync
 
-**Sync Keys to Key Limiter** overwrites [Key Limiter](key-limiter.md)'s allowed keys with the keys shown in the viewer, and keeps them matched when you rebind keys or switch layouts. Keys the limiter blocks still render as full presses in the viewer. The same toggle sits on the Key Limiter page too, so you can flip it from either place.
+Key Viewer works without [Key Limiter](key-limiter.md), including keys that only the input hook can see. When the Key Limiter module is loaded in full Quartz, **Sync Keys to Key Limiter** appears and overwrites its allowed keys with the keys shown in the viewer. It keeps them matched when you rebind keys or switch layouts, while blocked keys still render as full presses in the viewer. The same toggle sits on the Key Limiter page too.
+
+The standalone edition does not include Key Limiter, so it does not show this toggle.

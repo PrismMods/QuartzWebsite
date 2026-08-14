@@ -36,3 +36,5 @@ A preset carries the look, not the author — applying one leaves your interface
 Overlay positions are stored against the display they were placed on, so a profile built on one monitor can land off-target on another.
 
 **Recalibrate Display** re-baselines every overlay to the monitor you're on now, keeping them exactly where they currently sit. From then on they scale proportionally if the profile is used on a different-sized display.
+
+The Quartz menu size also travels with the profile. It is stored in proportion to the display, reloaded when you select a profile or apply a preset, and kept within the visible area when the resolution changes.

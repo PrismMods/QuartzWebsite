@@ -16,7 +16,7 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button at t
 
 | Feature | What it does |
 |---------|--------------|
-| [Key Viewer](key-viewer.md) | Free-form layout editor for an on-screen key display — press counters, KPS, rain effects, pattern hiding, and DM Note-compatible presets and CSS. |
+| [Key Viewer](key-viewer.md) | Free-form on-screen key display with counters, KPS, rain effects, DM Note-compatible presets/CSS/JavaScript plugins, and an optional standalone install. |
 | [Combo](combo.md) | Combo counter overlay for gameplay. |
 | [Judgement](judgement.md) | Hit judgement count display. |
 | [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar or a thin line along the screen edge. |
