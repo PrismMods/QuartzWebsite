@@ -1,0 +1,25 @@
+docs/features/addons.md
+  s_f148d4f7814f51::t_3495635ef6c565 27,29-31
+  s_f148d4f7814f51::t_02658d4af6cb76 44
+docs/features/key-viewer.md
+  s_f148d4f7814f51::t_bd90280b905865 51
+  s_f148d4f7814f51::t_4a7ce5e65dfdc7 54
+docs/install.md
+  s_f148d4f7814f51::t_3bba6b992734cd 74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "569cf0e349b7a3fa4a9e43279cc2733835b012a8",
+  "prompts": {},
+  "sessions": {
+    "s_f148d4f7814f51": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "792eead4-2548-4292-b5ef-13bc36e9dbdb",
+        "model": "claude-fable-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
