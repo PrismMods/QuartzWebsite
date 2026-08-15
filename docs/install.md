@@ -67,7 +67,7 @@ With full Quartz, your features come across untouched: the first launch after up
 
 ### Choosing which builds you get
 
-Quartz publishes on four channels, and the picker at the top of **Updates** in **Settings** — just above **Check for Updates** — decides which one you follow. **Alpha** is where new builds land first; **Beta** and **Release Candidate** are quieter; **Stable** is final releases only. Each step up accepts fewer builds.
+Quartz publishes on three channels, and the picker at the top of **Updates** in **Settings** — just above **Check for Updates** — decides which one you follow. **Alpha** is where new builds land first; **Beta** is quieter; **Stable** is final releases only. Each step up accepts fewer builds.
 
 The updater then stays in the channel you chose. On **Alpha** you are offered the newest alpha rather than a beta of the same version, and a final release still replaces the prereleases it was built from. Changing the setting takes effect on the next check, so press **Check for Updates** to see what the new channel has for you.
 
