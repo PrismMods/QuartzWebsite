@@ -1,0 +1,20 @@
+docs/features/addons.md
+  s_d70875b57e2b7e::t_0b02ecf8c1f87b 38
+  s_d70875b57e2b7e::t_89f8aa2eafc537 25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "450b53b79f2b800403c9fed0612c05b943a87be1",
+  "prompts": {},
+  "sessions": {
+    "s_d70875b57e2b7e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e53182bb-0cca-4924-98c5-05438348ea76",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
