@@ -1,0 +1,19 @@
+docs/features/key-viewer.md
+  s_dcc13d8ac8f1aa::t_3fc0efd8523249 56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "54f3826a44362d74b0bd59356eab065399dc24c5",
+  "prompts": {},
+  "sessions": {
+    "s_dcc13d8ac8f1aa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f88182c5-ee9b-4359-b15f-f52f0e4b1d96",
+        "model": "claude-fable-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
