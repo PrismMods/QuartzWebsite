@@ -1,0 +1,19 @@
+docs/install.md
+  s_e9a36f061a487f::t_5d8d37be8c0eeb 70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "7fe556f5500c7a8aa64c7cb5cb2c71c411672a80",
+  "prompts": {},
+  "sessions": {
+    "s_e9a36f061a487f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a85d324b-8e36-488c-bcfb-5b3de418be8c",
+        "model": "claude-fable-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
