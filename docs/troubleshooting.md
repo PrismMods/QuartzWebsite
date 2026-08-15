@@ -6,6 +6,10 @@
 - Confirm the loader itself is installed for A Dance of Fire and Ice.
 - Restart the game after installing Quartz.
 
+## The log says "no usable runtime — reinstall Quartz"
+
+Some installers extract the mod folder without its `Runtime/` folder, which leaves Quartz with nothing to load. Since `v2.0.0-alpha-115` Quartz repairs this on its own: it re-downloads its own release and restores the missing runtime during startup, so the message should be followed by "the runtime was restored" in the same log and the game starts with Quartz working. If you see the error on an older build, or the restore fails because you were offline, install the latest release once by hand — extract the zip over your install (MelonLoader: over the game folder; UnityModManager: the `Quartz` folder into your mods directory) — and it will not come back.
+
 ## The game starts but settings are missing
 
 Open the in-game Quartz menu with the mod's keybind (default: `ALT + K`). For UMM installs, Quartz settings live in the Quartz menu rather than inside the UMM panel.
