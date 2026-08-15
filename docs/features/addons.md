@@ -22,7 +22,7 @@ Quartz loads every addon at launch, so once a file is in the folder it comes bac
 
 Each installed addon gets a row on the **Addons** page showing its name, version, and author:
 
-- **Enable / disable** — the toggle on each row turns an addon on or off. A disabled addon stays installed but does not load.
+- **Enable / disable** — the toggle on each row turns an addon on or off. A disabled addon stays installed but does not load. Some addons can't apply that cleanly while the game is running; toggling one of those shows a "restart the game" notice until you do.
 - **Reload Addons** — unloads everything, re-scans the folder from disk, and rebuilds the list. Use it after adding or updating a file, without restarting the game.
 - **Remove** — deletes the addon's file, its saved settings, and its data folder from disk. It asks once to confirm before deleting, and it cannot be undone.
 
@@ -35,7 +35,7 @@ An addon that publishes its releases on GitHub can tell Quartz where to look: wh
 
 ## Addon pages
 
-An addon can register its own settings page. When it does, that page appears under **Addons** in the sidebar next to the built-in ones, so an addon's options live in the same menu as everything else. Addons can also add [Panels](panels.md) stats and text tags for use in your overlays.
+An addon can register its own settings page. When it does, that page appears under **Addons** in the sidebar next to the built-in ones, so an addon's options live in the same menu as everything else. An addon can instead ask for its own top-level entry in the sidebar, alongside the built-in categories, if it doesn't want to live under Addons. Addons can also add [Panels](panels.md) stats and text tags for use in your overlays.
 
 ## Writing an addon
 
