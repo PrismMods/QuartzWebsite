@@ -32,6 +32,16 @@ If a row reads `v2.0.0-alpha-103` with an update waiting for `v2.0.0-alpha-102`,
 
 Press **Refresh** on **Modules → All Modules** to pull the catalog again if a row still looks wrong afterwards.
 
+## Quartz did not update itself at launch
+
+Since `v2.0.0-alpha-113`, Quartz checks for a new release when the game starts and loads it in the same launch. If a release is out but you are still on the old build:
+
+- Coming from a build older than `v2.0.0-alpha-113`, the first restart after updating runs your previous version one last time while the new layout takes over — restart once more.
+- The launch check follows the channel picker under **Updates** in **Settings**, and it never installs a release you chose **Skip** on.
+- If you were offline (or GitHub was slow) at launch, the game starts on your current version and tries again next time.
+- A build that failed to start on your machine is rolled back and held back on purpose; it is retried when the next release comes out.
+- Check `UserData/Quartz/Runtime/update.json` (UnityModManager: `Quartz/Runtime/update.json`) — `"Enabled": false` there switches the launch check off.
+
 ## The in-app updater never offers a new build
 
 Start with the channel picker at the top of **Updates** in **Settings**. The updater only offers builds from the channel you picked and the stabler ones above it, so a **Stable** setting stays quiet for as long as only prereleases are being published.

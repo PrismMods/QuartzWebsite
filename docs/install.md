@@ -54,7 +54,14 @@ The standalone edition contains the Key Viewer and the overlay support it needs,
 
 ## Updating
 
-Download the newest package for the same edition and loader, then install it the same way you did the first time. If the game keeps loading the old version, restart Steam and confirm only one copy of that package is installed.
+Since `v2.0.0-alpha-113`, Quartz updates itself. When the game starts, it checks for a new release on your channel, downloads it, and loads it in the same launch — there is nothing to click and nothing to reinstall. A new build only becomes your current one after it starts cleanly; one that fails to start is rolled back automatically and skipped until the next release. Your settings, profiles, and modules are untouched, and shipped files like translations refresh on their own.
+
+The launch-time check follows the same channel and skipped-version choices as the in-app updater (see below). To turn it off entirely, set `"Enabled": false` in `UserData/Quartz/Runtime/update.json` (UnityModManager: `Quartz/Runtime/update.json` in the mods directory).
+
+!!! note "Coming from a build older than v2.0.0-alpha-113"
+    Update once by hand — from inside the game as usual, or by extracting the new zip over your install. The first restart runs your previous version one last time while the new layout takes over; from the second restart onward updates are automatic. The install layout changed with this build: `Mods/` now carries a small `Quartz.Bootstrap.dll` and the mod itself lives in versioned folders under `UserData/Quartz/Runtime/` — the old `Mods/Quartz.dll` is removed automatically.
+
+You can still update by hand: download the newest package for the same edition and loader, then install it the same way you did the first time. If the game keeps loading the old version, restart Steam and confirm only one copy of that package is installed.
 
 With full Quartz, your features come across untouched: the first launch after updating reads the settings you already have and installs the matching modules for you, using copies inside the download rather than the network. From then on you manage them yourself in the **Modules** tab, and every later update refreshes any module it carries a newer copy of — see [Modules](features/modules.md). The standalone edition keeps its fixed Key Viewer modules and follows the standalone updater package instead.
 
