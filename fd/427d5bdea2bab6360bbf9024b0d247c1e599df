@@ -1,0 +1,21 @@
+docs/features/index.md
+  s_cc4a9f6fa99f56::t_0e0fa025463fb8 65
+docs/features/tuf.md
+  s_cc4a9f6fa99f56::t_6222e3408e49a9 19,47-48,62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "fd427d5bdea2bab6360bbf9024b0d247c1e599df",
+  "prompts": {},
+  "sessions": {
+    "s_cc4a9f6fa99f56": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "84faa67f-7b89-4d75-a9ef-64cd518ddd04",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
