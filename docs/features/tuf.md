@@ -16,6 +16,7 @@ A searchable, endlessly scrolling list of TUF levels. Each card shows the level'
 - **Quantum** — an opt-in second range bar for quantum difficulties. Turn it off and it folds away entirely.
 - **Special** — a flyout with **Unranked**, **Censored**, and **Impossible** checkboxes for including special-difficulty levels.
 - **Installed** — switches the list to your own library; see [Your library](#your-library) below.
+- **Updates** — checks every level you've downloaded against TUF and tells you how many have a newer version waiting. The chip counts them once it's finished.
 - **Grid View** — lays the levels out as a grid of cards instead of one long column. The number of columns follows the window width as you resize, and the choice sticks between sessions.
 - Scrolling near the bottom loads the next page automatically.
 
@@ -43,6 +44,8 @@ When TUF can't be reached at all — no connection, or the site times out — th
 
 - **Installed badge** — levels you already have are marked wherever they appear, including in search results and inside packs.
 - **Delete** — the trash icon removes a level from disk, so clearing out maps doesn't mean digging through folders. It takes two clicks: the first arms the button and turns it red, the second deletes. Anything you remove can be downloaded again later.
+- **Update** — each downloaded level carries a badge that asks TUF whether the chart has been re-uploaded since you got it. It reads **Up to date** when nothing has changed, and **Update** when a newer version is waiting; clicking it downloads that version over the copy you have.
+- **Restore** — updating doesn't throw the old chart away. Quartz keeps the last three copies of a level in a `rollback` folder inside your levels folder, and **Restore** lists them by date so you can put an earlier one back.
 - Levels downloaded before Quartz kept this index still show up, and they fill their own details in: Quartz reads the song, artist, and creator out of the chart file itself, and asks TUF about anything still missing. Creator names come from the level's credits, so charters credited there are named rather than left blank.
 
 ## Packs
@@ -56,7 +59,7 @@ Community level packs, in their own sub-tab.
 
 ## Settings
 
-Controls for the browser's appearance and where your downloaded levels live. The page shows the folder currently in use at the top, under **Level Library**.
+Controls for the browser's appearance and where your downloaded levels live. The page shows the folder currently in use at the top, under **Level Library**, along with how many levels you have and how much disk space they take up.
 
 - **Level Previews** — show the blurred thumbnail behind each level and pack card, taken from the level's YouTube video (a pack falls back to its own icon). On by default; turn it off to skip the thumbnail downloads entirely.
 - **Open Levels Folder** — opens the library actually in use in your file browser, which isn't the default one once you've moved it.
