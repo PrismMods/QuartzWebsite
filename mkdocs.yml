@@ -105,5 +105,8 @@ nav:
           - Profiles: features/profiles.md
           - Auto Deafen: features/auto-deafen.md
       - TUF: features/tuf.md
+      - Others:
+          - Discord: features/discord.md
+          - Minecraft: features/minecraft.md
       - Addons: features/addons.md
       - Help: features/help.md

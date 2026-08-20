@@ -70,6 +70,13 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 |---------|--------------|
 | [TUF](tuf.md) | Browse, download, and play TUF community levels and level packs without leaving the game, and manage the library you've downloaded. |
 
+## Others
+
+| Feature | What it does |
+|---------|--------------|
+| [Discord](discord.md) | Log in to Discord, browse servers and DMs, send messages, and join voice chat, from inside the game. |
+| [Minecraft](minecraft.md) | Play Minecraft Classic in a real embedded browser, in-game. |
+
 ## Addons
 
 | Feature | What it does |
