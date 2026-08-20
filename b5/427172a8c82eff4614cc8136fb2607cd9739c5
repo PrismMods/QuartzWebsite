@@ -1,0 +1,26 @@
+mkdocs.yml
+  s_e88ee5f673db96::t_19561eb5827d1b 108-110
+docs/features/minecraft.md
+  s_e88ee5f673db96::t_37967cb1f70309 1-17
+docs/features/index.md
+  s_e88ee5f673db96::t_3adea92839bfa3 73-79
+docs/features/discord.md
+  s_e88ee5f673db96::t_ac87bcc883ca75 33
+  s_e88ee5f673db96::t_279841e2c1e68e 1-32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "b5427172a8c82eff4614cc8136fb2607cd9739c5",
+  "prompts": {},
+  "sessions": {
+    "s_e88ee5f673db96": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "daba5f3a-3416-485b-8236-24e21d478c52",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
