@@ -10,9 +10,11 @@ Everything Quartz does lives in one in-game menu — a sidebar of categories on 
 
 ## Overlays & HUD
 
-All under the **Overlay** category in the sidebar. Its **General** page holds the master **Enable Overlays** switch and the **Reorganize** button for dragging them into place.
+All under the **Overlay** category in the sidebar. Its **General** page holds the master **Enable Overlays** switch, the **Reorganize** button for dragging them into place, and the **Pop-In Animation** section.
 
-Reorganize hides the settings window and puts an **Exit Reorganize** button at the top of the screen; every overlay becomes draggable until you click it. Click an overlay to select it, then drag any of its corner grips to resize it, or set the size with the **Size** slider that sits beside **X Position** and **Y Position** in the reorganize panel. If the button covers the overlay you are trying to move, hold it for about a second — it changes colour, and from there you can drag the button itself anywhere on screen. Where you leave it is remembered, and a middle click puts it back at the top.
+Reorganize hides the settings window and puts an **Exit Reorganize** button in the bottom-right corner of the screen; every overlay becomes draggable until you click it. Click an overlay to select it, then drag any of its corner grips to resize it, or set the size with the **Size** slider that sits beside **X Position** and **Y Position** in the reorganize panel. The panel itself can be dragged anywhere by its background, and it reopens where you left it. If the button covers the overlay you are trying to move, hold it for about a second — it changes colour, and from there you can drag the button itself anywhere on screen. Where you leave it is remembered, and a middle click puts it back in the corner.
+
+**Pop-In Animation** slides every overlay in from the edge of the screen when a run starts, and slides them back off when you die or clear. **Direction** picks the edge they travel from — **Nearest Edge** sends each overlay out the side it already sits closest to, or you can pin them all to **Left**, **Right**, **Top** or **Bottom**. **Easing** sets the curve of the movement and **Duration** how long it takes. Turn **Slide Out on Death or Clear** off to have them arrive with the run but stay on screen once it ends.
 
 | Feature | What it does |
 |---------|--------------|
