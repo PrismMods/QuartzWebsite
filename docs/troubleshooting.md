@@ -40,6 +40,14 @@ If a row reads `v2.0.0-alpha-103` with an update waiting for `v2.0.0-alpha-102`,
 
 Press **Refresh** on **Modules → All Modules** to pull the catalog again if a row still looks wrong afterwards.
 
+## A module never updates and sits on a version from another channel
+
+Check the module's version on its row under **Modules → All Modules**. If it reads a channel your Quartz is not on — a `beta` version next to an `alpha` install, or the reverse — that module was installed while you were on the other channel and then stopped receiving updates entirely.
+
+Builds before `v2.0.0-alpha-127` and `v2.0.0-beta-8` ranked any beta build above any alpha one, whatever channel Quartz itself was running. A module from the other channel therefore looked newer than every build that came after it, so no update was ever offered and the module quietly stayed behind — far enough, in one report, to be missing weeks of fixes while the rest of the install was current.
+
+From `v2.0.0-alpha-127` and `v2.0.0-beta-8` on, modules follow the channel your Quartz is on, and a stuck module is picked up on the next launch. The repair ships in the mod rather than in the modules, so update Quartz first. To fix one immediately on an older build, **Remove** the module under **Modules** and install it again; your settings are kept.
+
 ## Quartz did not update itself at launch
 
 Since `v2.0.0-alpha-113`, Quartz checks for a new release when the game starts and loads it in the same launch. If a release is out but you are still on the old build:
