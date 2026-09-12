@@ -1,0 +1,23 @@
+docs/features/key-viewer.md
+  s_e238f5d5b2892d::t_7d8a2434d645e9 24
+docs/features/planet-colors.md
+  s_e238f5d5b2892d::t_738f46b8aacb70 13
+docs/troubleshooting.md
+  s_e238f5d5b2892d::t_21e0a87850793e 43-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4065eb7a7ed3dd17eede2af7f2cbc57d8c1efa52",
+  "prompts": {},
+  "sessions": {
+    "s_e238f5d5b2892d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c413644b-e463-4123-8c4d-384da671ad8c",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
