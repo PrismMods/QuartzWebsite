@@ -1,0 +1,19 @@
+docs/features/index.md
+  s_68905f4f6dd5e3::t_6a4ecab7f5d8a8 13,15-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9bb1e8834e844ab8a06aff8aaeecf7a3924c3c99",
+  "prompts": {},
+  "sessions": {
+    "s_68905f4f6dd5e3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9df4acb9-9544-493b-a095-c3dee9afc1e6",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
