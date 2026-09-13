@@ -1,6 +1,6 @@
 # Chatter Blocker
 
-Drops repeated presses of the same key that arrive within a short threshold — the kind of double-input a chattering or worn-out switch produces — so a single physical press can't register as two hits.
+Drops repeated presses of the same key that arrive within a short threshold — the kind of double-input a chattering or worn-out switch produces — so a single physical press can't register as two hits. Quartz also collapses duplicate reports when the game and the independent input hook both see that same press.
 
 ## Where to find it
 
