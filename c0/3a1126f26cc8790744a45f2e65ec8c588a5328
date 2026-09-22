@@ -1,0 +1,25 @@
+docs/features/in-game-overlay.md
+  s_4026be8f9ad245::t_f0242eef45ca32 3,7,11
+docs/features/index.md
+  s_4026be8f9ad245::t_fecea414fb1dcb 48
+docs/features/panels.md
+  s_4026be8f9ad245::t_114a1b3916a9b6 11-12
+docs/features/planet-colors.md
+  s_4026be8f9ad245::t_36d8f3c0348e0e 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c03a1126f26cc8790744a45f2e65ec8c588a5328",
+  "prompts": {},
+  "sessions": {
+    "s_4026be8f9ad245": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "943b20dd-adf0-4573-99b8-d4728f382518",
+        "model": "claude-opus-5"
+      },
+      "human_author": "koren <131921956+kkorenn@users.noreply.github.com>"
+    }
+  }
+}
