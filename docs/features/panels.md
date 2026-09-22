@@ -8,7 +8,8 @@ Open the Quartz menu in-game and pick **Overlay → Panels** from the sidebar.
 
 ## Highlights
 
-- **Create Panel** — makes a new empty panel; name it, then use **+ Add Stat** to pick from every stat Quartz exposes (accuracy, X-accuracy, KPS, Auto KPS, BPM (current/target), progress, timing scale, holds, checkpoints, attempt/best/total-attempts, map time, music time, pitch, FPS, a custom **Text** row you write yourself, or an **Image**).
+- **Create Panel** — makes a new empty panel; name it, then use **+ Add Stat** to pick from every stat Quartz exposes (accuracy, X-accuracy, X-Score, KPS, Auto KPS, BPM (current/target), progress, timing scale, holds, checkpoints, attempt/best/total-attempts, map time, music time, pitch, FPS, a custom **Text** row you write yourself, or an **Image**).
+- **X-Score** — the game's X-Score, followed by `(MAX-n)`: how many points you've already lost against a perfect run, updated live. Starting partway through a level in the editor doesn't count the skipped tiles as lost. Shows only on ADOFAI versions with X-Score, while the game's own X-Score display is turned on.
 - **Image** — puts a picture in a panel. Pick one with **Choose Image** (PNG or JPG), or type a file name straight into the row. **Open Images Folder** opens the `PanelImages` folder Quartz keeps for this; anything in there can be named by file name alone, so a panel setup you hand to someone else still finds the picture on their machine, while a full path works if you'd rather leave the file where it is. **Image Size** scales the picture against that panel's font size. An image is a row like any other — it drags to reorder, hides with its checkbox, and lines up with your stats in the same panel.
 - **Anchor** — pins a panel to one of nine screen positions (corners, edges, center); position, font size, line spacing, and prefix are all per-panel.
 - **Layer order** — when panels overlap, drag a panel's row in the list to change which one draws on top.

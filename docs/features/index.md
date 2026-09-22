@@ -45,7 +45,7 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button in t
 | [Tile Arc](tile-arc.md) | Round the outer corner of every tile turn, with an adjustable arc intensity. |
 | [Tweaks](tweaks.md) | Small gameplay, menu, and results-screen adjustments. |
 | [Optimizer](optimizer.md) | Performance toggles: garbage-collection timing, process priority, bloom, and more. |
-| [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font, at a per-target size, to the game's own level title, countdown, and judgement popup. |
+| [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font, at its own size, to the game's per-hit judgement popup. |
 
 ## Input & Restrictions
 
