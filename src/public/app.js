@@ -35,7 +35,7 @@ const installSteps = {
         { text: "Download " },
         { text: "modlist.org app", href: "https://github.com/modlist-org/modlist_org_app/releases/latest" },
         { text: " and " },
-        { text: "Quartz", href: "https://github.com/QuartzTeam/Quartz/releases/latest" },
+        { text: "Quartz", href: "https://github.com/PrismMods/Quartz/releases/tag/latest-stable" },
         { text: "." }
       ]
     },
@@ -63,7 +63,7 @@ const installSteps = {
         { text: "Download " },
         { text: "QuartzUmm.zip", code: true },
         { text: " from " },
-        { text: "releases", href: "https://github.com/QuartzTeam/Quartz/releases/latest" },
+        { text: "releases", href: "https://github.com/PrismMods/Quartz/releases/tag/latest-stable" },
         { text: "." }
       ]
     },
