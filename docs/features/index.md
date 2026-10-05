@@ -37,7 +37,6 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button in t
 | Feature | What it does |
 |---------|--------------|
 | [Planet Colors](planet-colors.md) | Customize planet and tail colors. |
-| [Nostalgia](nostalgia.md) | Restore older ADOFAI visuals, sounds, and editor conventions, from its own sidebar tab. |
 | [Effect Remover](effect-remover.md) | Strip distracting level effects, in Simple or Enhanced mode. |
 | [Hide Judgements](hide-judgements.md) | Hide the game's own per-hit judgement popups, one grade at a time. |
 | [UI Hider](ui-hider.md) | Hide parts of the game's own UI, with separate Playing/Recording profiles. |
@@ -79,7 +78,6 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 | Feature | What it does |
 |---------|--------------|
 | [Discord](discord.md) | Log in to Discord, browse servers and DMs, send messages, and join voice chat, from inside the game. |
-| [Minecraft](minecraft.md) | Play Minecraft Classic in a real embedded browser, in-game. |
 
 ## Addons
 

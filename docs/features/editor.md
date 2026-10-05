@@ -20,6 +20,3 @@ Open the Quartz menu in-game and go to the **Editor** tab.
 
 !!! note "Credit"
     Decoration Preview is a port of [DecoPreview](https://github.com/rdzip/DecoPreview) by rdzip, licensed under the GNU GPL v3.
-
-!!! note
-    [Nostalgia](nostalgia.md) adds several more editor-specific toggles (legacy button positions/designs, old auto-play behavior, and more). They live on Nostalgia's own **Editor** page, reached from the **Nostalgia** sidebar tab — not this one.

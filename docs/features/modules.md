@@ -25,7 +25,7 @@ The **Filter modules** box sits above the list. Type into it and the list narrow
 
 ### Tabs
 
-**Tabs** lists every sidebar tab that can hold modules — **Overlay**, **Gameplay**, **Visuals**, **Tweaks**, **Editor**, **Nostalgia** and **Others**. Each is a section you can fold open or shut, with a switch that hides or shows that whole tab in the sidebar and a count of how many of its modules you have installed out of how many exist.
+**Tabs** lists every sidebar tab that can hold modules — **Overlay**, **Gameplay**, **Visuals**, **Tweaks**, **Editor** and **Others**. Each is a section you can fold open or shut, with a switch that hides or shows that whole tab in the sidebar and a count of how many of its modules you have installed out of how many exist.
 
 Open a section and you get its **Install All** and **Remove All** buttons, then every module in that tab: the ones you have installed first, then the ones you could add.
 

@@ -4,13 +4,13 @@ Quartz ships a full package and a standalone Key Viewer package for each loader.
 
 | Edition | MelonLoader | UnityModManager |
 |---------|-------------|-----------------|
-| Full Quartz | [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/Quartz.zip) | [`QuartzUmm.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/QuartzUmm.zip) |
-| Key Viewer only | [`QuartzKeyViewer.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/QuartzKeyViewer.zip) | [`QuartzKeyViewerUmm.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-alpha/QuartzKeyViewerUmm.zip) |
+| Full Quartz | [`Quartz.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-stable/Quartz.zip) | [`QuartzUmm.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-stable/QuartzUmm.zip) |
+| Key Viewer only | [`QuartzKeyViewer.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-stable/QuartzKeyViewer.zip) | [`QuartzKeyViewerUmm.zip`](https://github.com/PrismMods/Quartz/releases/download/latest-stable/QuartzKeyViewerUmm.zip) |
 
-[Download the latest build :material-download:](https://github.com/PrismMods/Quartz/releases/tag/latest-alpha){ .md-button .md-button--primary }
+[Download the latest build :material-download:](https://github.com/PrismMods/Quartz/releases/tag/latest-stable){ .md-button .md-button--primary }
 
 !!! note
-    Quartz is still in alpha, so every build is published as a pre-release. `latest-alpha` always points at the newest one, and the links on this page follow it — they never go stale.
+    These links follow `latest-stable`, which always points at the newest final release, so they never go stale. Want new features sooner? Grab the newest [alpha](https://github.com/PrismMods/Quartz/releases/tag/latest-alpha) or [beta](https://github.com/PrismMods/Quartz/releases/tag/latest-beta) build instead, or switch channels in-game — see [Choosing which builds you get](#choosing-which-builds-you-get).
 
 ## MelonLoader (recommended)
 

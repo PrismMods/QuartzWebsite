@@ -87,7 +87,6 @@ nav:
       - Editor: features/editor.md
       - Visual & Gameplay tweaks:
           - Planet Colors: features/planet-colors.md
-          - Nostalgia: features/nostalgia.md
           - Effect Remover: features/effect-remover.md
           - Hide Judgements: features/hide-judgements.md
           - UI Hider: features/ui-hider.md
@@ -109,6 +108,5 @@ nav:
       - TUF: features/tuf.md
       - Others:
           - Discord: features/discord.md
-          - Minecraft: features/minecraft.md
       - Addons: features/addons.md
       - Help: features/help.md
