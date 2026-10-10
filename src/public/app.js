@@ -72,7 +72,7 @@ const installSteps = {
       parts: [
         { text: "In the UMM installer, use \"Install mod\" and pick " },
         { text: "QuartzUmm.zip", code: true },
-        { text: " (or drag the zip into the drop box) — or extract the " },
+        { text: " (or drag the zip into the drop box). Or extract the " },
         { text: "Quartz", code: true },
         { text: " folder into your UMM mods directory manually." }
       ]
