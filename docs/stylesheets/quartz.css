@@ -1,32 +1,41 @@
-/* Quartz docs theme — minimal, sharp, roomy.
+/* Quartz docs theme — the Quartz design system (red variation of Modlist), dark only.
    Palette mirrors src/public/styles.css on the homepage. */
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap");
+@font-face {
+  font-family: SUIT;
+  src: url("../assets/fonts/SUIT-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
 
 /* ---------- palette ---------- */
 
-:root {
-  --md-primary-fg-color: #5e4a42;        /* --accent-dark */
-  --md-primary-fg-color--light: #8f6f5f; /* --accent */
-  --md-primary-fg-color--dark: #4a3a34;
-  --md-accent-fg-color: #8f6f5f;
-  --md-accent-fg-color--transparent: rgba(143, 111, 95, 0.08);
-}
-
-[data-md-color-scheme="default"] {
-  --md-default-bg-color: #faf8f3;        /* warm paper, softer than pure white */
-  --md-default-fg-color: #26221f;        /* --ink */
-  --md-default-fg-color--light: #716a61; /* --muted */
-  --md-default-fg-color--lighter: #a89580;
-  --md-default-fg-color--lightest: #e7e1d5;
-  --md-typeset-a-color: #8f6f5f;
-  --md-code-bg-color: #f0ece2;           /* --wash, a step deeper */
-}
-
+:root,
 [data-md-color-scheme="slate"] {
-  --md-hue: 27;                          /* warm the whole dark scheme */
-  --md-typeset-a-color: #c8beb2;
-  --md-accent-fg-color: #a89580;         /* --soft */
+  --md-text-font-family: SUIT, "Noto Sans SC", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --md-code-font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --md-hue: 355;
+  --md-primary-fg-color: #c93b41;          /* ol-button */
+  --md-primary-fg-color--light: #d13f46;
+  --md-primary-fg-color--dark: #a8323a;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #ff8a8f;           /* ol-accent */
+  --md-accent-fg-color--transparent: rgba(255, 138, 143, 0.14);
+  --md-default-bg-color: #181112;          /* bg */
+  --md-default-fg-color: #ffffff;          /* text */
+  --md-default-fg-color--light: #c9b5b8;   /* text-secondary */
+  --md-default-fg-color--lighter: #9a8488; /* text-tertiary */
+  --md-default-fg-color--lightest: rgba(255, 255, 255, 0.09); /* border-strong */
+  --md-typeset-color: #ffffff;
+  --md-typeset-a-color: #ff8a8f;
+  --md-code-bg-color: #1d1516;             /* bg-elev */
+  --md-code-fg-color: #f3e6e7;
+  --md-typeset-mark-color: rgba(255, 138, 143, 0.35);
+  --md-typeset-table-color: rgba(255, 255, 255, 0.05);
+  --md-footer-bg-color: #181112;
+  --md-footer-bg-color--dark: #181112;
 }
+
+::selection { background: rgba(255, 138, 143, 0.35); }
 
 /* ---------- type: sharp ---------- */
 
@@ -51,7 +60,7 @@
 .md-typeset .admonition-title,
 .md-typeset summary,
 .md-nav__title {
-  font-family: "Space Grotesk", Manrope, system-ui, sans-serif;
+  font-family: var(--md-text-font-family);
 }
 
 .md-typeset h1 {
@@ -71,7 +80,7 @@
   font-weight: 600;
 }
 
-/* ---------- edges: square everything ---------- */
+/* ---------- edges: 8px controls, 12px cards ---------- */
 
 .md-typeset code,
 .md-typeset pre > code,
@@ -84,14 +93,27 @@
 .md-search__form,
 .md-search__output,
 .md-nav__link {
-  border-radius: 0;
+  border-radius: 8px;
+}
+
+.md-typeset code {
+  border-radius: 6px;
+}
+
+.md-typeset .admonition,
+.md-typeset details,
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 12px;
 }
 
 /* ---------- header + footer: flat hairlines, no chrome ---------- */
 
 .md-header,
 .md-tabs {
-  background-color: var(--md-default-bg-color);
+  background-color: rgba(24, 17, 18, 0.82);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   color: var(--md-default-fg-color);
   box-shadow: none;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
@@ -102,11 +124,12 @@
 }
 
 .md-search__form {
-  background-color: var(--md-code-bg-color);
+  background-color: #4b3a3e;               /* surface-3 */
 }
 
 .md-search__form:hover {
-  background-color: var(--md-accent-fg-color--transparent);
+  background-color: #4b3a3e;
+  box-shadow: inset 0 0 0 2px #ff8a8f;     /* the hover ring */
 }
 
 .md-search__input::placeholder,
@@ -157,7 +180,7 @@
 }
 
 .md-typeset table:not([class]) th {
-  font-family: "Space Grotesk", Manrope, system-ui, sans-serif;
+  font-family: var(--md-text-font-family);
   background-color: var(--md-code-bg-color);
   color: var(--md-default-fg-color);
 }
@@ -166,14 +189,13 @@
   padding: 0.8em 1.25em;
 }
 
-/* ---------- admonitions: monochrome, left accent, flat ---------- */
+/* ---------- admonitions: surface cards, accent icon ---------- */
 
 .md-typeset .admonition,
 .md-typeset details {
   /* !important beats the per-type colors (.admonition.note is more specific) */
-  border: 1px solid var(--md-default-fg-color--lightest) !important;
-  border-left: 3px solid var(--md-accent-fg-color) !important;
-  background-color: var(--md-code-bg-color) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  background-color: #281c1e !important;    /* surface */
   box-shadow: none;
   padding: 0.4rem 1rem;
 }
@@ -192,19 +214,23 @@
 /* ---------- cards + buttons ---------- */
 
 .md-typeset .grid.cards > ul > li {
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: #281c1e;
   box-shadow: none;
   padding: 1rem 1.2rem;
 }
 
 .md-typeset .grid.cards > ul > li:hover {
-  border-color: var(--md-accent-fg-color);
-  box-shadow: none;
+  background-color: #2f2224;               /* surface-hover */
+  box-shadow: inset 0 0 0 2px #ff8a8f;
 }
 
 .md-typeset .md-button {
   padding: 0.7em 1.6em;
-  border-radius: 0;
+  border: 0;
+  border-radius: 8px;
+  background-color: #4b3a3e;
+  color: #ffffff;
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
@@ -212,4 +238,20 @@
 
 .md-typeset .md-button .twemoji {
   vertical-align: middle;
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus-visible {
+  background-color: #4b3a3e;
+  color: #ffffff;
+  box-shadow: inset 0 0 0 2px #ff8a8f;
+}
+
+.md-typeset .md-button--primary {
+  background-color: #c93b41;
+}
+
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus-visible {
+  background-color: #d13f46;
 }
