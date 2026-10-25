@@ -8,12 +8,12 @@ Open the Quartz menu in-game and pick **Profiles** from the sidebar.
 
 ## Managing profiles
 
-The list shows every profile you have, with the current one marked **Active**.
+The list shows every profile you have, with the active one highlighted by a tinted row.
 
 - **Add Profile** — type a name into **Profile Name**, then add it. The new profile starts clean — only your language and the menu toggle key carry over — and switches to it straight away. If it can't be created, the page says so.
 - **Select** — switch to another profile. The menu rebuilds around it.
 - **Export** — save a profile as a `.qprofile` file you can back up or share.
-- **Import** — load a `.qprofile` file (or a legacy `.krprofile`) as a new profile. It isn't selected automatically, so importing never disturbs what you're using. If the profile carries settings for a feature you don't have installed, the matching modules are installed for you, so nothing in it silently goes missing.
+- **Import** — load a `.qprofile` file (or a legacy `.krprofile`) as a new profile. It isn't selected automatically, so importing never disturbs what you're using. If the profile carries settings for a feature you have switched off, that feature is switched on for you, so nothing in it silently goes missing.
 - **Delete** — remove a profile. It asks **Sure?** first, and the active profile can't be deleted.
 - **Open Folder** — reveal the folder the profiles are stored in.
 
@@ -27,7 +27,7 @@ Presets are ready-made profiles that ship with Quartz. **Apply** one to bring in
 | Preset | What it's set up for |
 |--------|----------------------|
 | **Refreshin** | A clean, pared-back look. |
-| **JeulGemi** | Casual play: Auto Deafen, the chatter blocker, a compact judgement row with X-Perfect shown, a 16-key limiter, overlay panels, and a slim progress bar. |
+| **JeulGemi** | Casual play: Auto Deafen, AntiChatter, a compact judgement row with X-Perfect shown, a 16-key limiter, overlay panels, and a slim progress bar. |
 
 A preset carries the look, not the author — applying one leaves your interface language alone.
 

@@ -4,7 +4,7 @@ Bind a key to a difficulty and a pitch, so you can drop a level to **Lenient** a
 
 ## Where to find it
 
-Open the Quartz menu in-game and pick **Gameplay → Practice Difficulty** from the sidebar. Turn on **Enable Practice Difficulty** to arm the key bindings.
+Open the Quartz menu in-game and pick **Gameplay → Practice Difficulty** from the sidebar. The **Use this feature** switch at the top arms the key bindings.
 
 ## Key bindings
 
@@ -32,4 +32,4 @@ An on-screen readout of what you're actually playing on.
 - **Reset Position** puts it back where it started.
 
 !!! tip
-    The readout moves like the other overlays: turn on **Reorganize** under **Overlay → General** and drag it wherever you want it.
+    The readout moves like the other overlays: drag it wherever you want it in [Reorganize](reorganize.md) mode.

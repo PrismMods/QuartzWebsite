@@ -8,7 +8,7 @@ Open the Quartz menu in-game and pick **Visuals → Hide Judgements** from the s
 
 ## Highlights
 
-- **Enable Hide Judgements** turns the whole feature on and reveals the list below it. With it off, the game's popups behave normally.
+- **Use this feature** at the top of the page turns the whole feature on. With it off, the game's popups behave normally.
 - Pick each grade to suppress on its own: **Too Early**, **Very Early**, **Early Perfect**, **Perfect**, **Late Perfect**, **Very Late**, **Too Late**, **Multipress**, **Miss**, **Auto**, **Overload (No Fail)**, and **Overload (Fail)**. Only the ones you check are hidden — everything else still pops up as usual.
 - With the XPerfect mod installed, or on an ADOFAI version with X-Perfect built in (the r150 alpha and later), the single **Perfect** checkbox splits into **X Perfect**, **+ Perfect**, and **- Perfect**, so you can hide those grades separately.
 

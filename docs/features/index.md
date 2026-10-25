@@ -1,18 +1,16 @@
 # Features
 
-Everything Quartz does lives in one in-game menu — a sidebar of categories on the left, with each category's pages on the right. This section documents each feature area — pages are added and updated as releases ship.
+Everything Quartz does lives in one in-game menu — an icon sidebar of categories on the left that expands when you hover it, with each category's pages as tabs under the top bar. Every feature is built in and can be switched on or off from the [Features tab](features-tab.md). This section documents each feature area — pages are added and updated as releases ship.
 
 ## Managing Quartz
 
 | Feature | What it does |
 |---------|--------------|
-| [Modules](modules.md) | Install, update, remove, enable and disable every feature from inside the game, and hide whole sidebar tabs. |
+| [Features tab](features-tab.md) | Switch any built-in feature on or off, jump to its settings, and hide whole sidebar tabs. |
 
 ## Overlays & HUD
 
-All under the **Overlay** category in the sidebar. Its **General** page holds the master **Enable Overlays** switch, the **Reorganize** button for dragging them into place, and the **Pop-In Animation** section.
-
-Reorganize hides the settings window and puts an **Exit Reorganize** button in the bottom-right corner of the screen; every overlay becomes draggable until you click it. Click an overlay to select it, then drag any of its corner grips to resize it, or set the size with the **Size** slider that sits beside **X Position** and **Y Position** in the reorganize panel. The panel itself can be dragged anywhere by its background, and it reopens where you left it. If the button covers the overlay you are trying to move, hold it for about a second — it changes colour, and from there you can drag the button itself anywhere on screen. Where you leave it is remembered, and a middle click puts it back in the corner.
+All under the **Overlay** category in the sidebar. Its **General** page holds the master **Overlays** switch and the **Pop-In Animation** section. To place overlays on screen, press the menu key — it opens the [Reorganize](reorganize.md) hub.
 
 **Pop-In Animation** slides every overlay in from the edge of the screen when a run starts, and slides them back off when you die or clear. **Direction** picks the edge they travel from — **Nearest Edge** sends each overlay out the side it already sits closest to, or you can pin them all to **Left**, **Right**, **Top** or **Bottom**. **Easing** sets the curve of the movement and **Duration** how long it takes. Turn **Slide Out on Death or Clear** off to have them arrive with the run but stay on screen once it ends.
 
@@ -24,7 +22,8 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button in t
 | [Progress Bar](progress-bar.md) | Level progress overlay, as a floating bar or a thin line along the screen edge. |
 | [Song Title](song-title.md) | Shows the current song's artist and title in-game. |
 | [Panels](panels.md) | Build your own stat overlays from any tracked stat, plus your own text and images. |
-| [Too Much Accuracy](accuracy.md) | Per-hit accuracy scoring with a tunable curve and combo, death markers, a per-tile run log, and JSON export. |
+| [Reorganize](reorganize.md) | Drag, resize, rotate and anchor every overlay from the hub the menu key opens, with undo and redo. |
+| [Fonts](in-game-overlay.md) | A global font, a font per overlay, per-font size and line spacing, the settings-window font, and the game's judgement popup. |
 
 ## Editor
 
@@ -42,19 +41,18 @@ Reorganize hides the settings window and puts an **Exit Reorganize** button in t
 | [UI Hider](ui-hider.md) | Hide parts of the game's own UI, with separate Playing/Recording profiles. |
 | [Otto Icon](otto-icon.md) | Customize the editor's Otto (auto-play) icon. |
 | [Tile Arc](tile-arc.md) | Round the outer corner of every tile turn, with an adjustable arc intensity. |
-| [Tweaks](tweaks.md) | Small gameplay, menu, and results-screen adjustments. |
+| [Tweaks](tweaks.md) | Small gameplay and menu adjustments, plus Special Days for forcing Halloween and April Fools on or off. |
 | [Optimizer](optimizer.md) | Performance toggles: garbage-collection timing, process priority, bloom, and more. |
-| [In-Game Overlay Fonts](in-game-overlay.md) | Apply your chosen font, at its own size, to the game's per-hit judgement popup. |
 
 ## Input & Restrictions
 
-Under the **Gameplay** category in the sidebar, except Calibration, which is its own top-level page.
+Under the **Gameplay** category in the sidebar, except Calibration, which is a page on **Overlay**.
 
 | Feature | What it does |
 |---------|--------------|
 | [Key Limiter](key-limiter.md) | Restrict which keyboard keys count as gameplay input. |
 | [Restriction](restriction.md) | Fail a run early on a judgement rule or a miss/overload cap. |
-| [Chatter Blocker](chatter-blocker.md) | Drop rapid repeat presses from a chattering key. |
+| [AntiChatter](antichatter.md) | Filter double inputs from a chattering key, and keep a bouncing hold from breaking. |
 | [Calibration](calibration.md) | Tune your input offset from real play — on-death popup, decimal offset, detailed readout, and per-map timing history. |
 | [Practice Difficulty](practice.md) | Bind keys to a difficulty and a pitch, and switch between them without leaving the level. |
 | [Countdown](countdown.md) | Slow the checkpoint and editor play-test countdown into a lead-in you can actually count. |
@@ -73,20 +71,8 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is its
 |---------|--------------|
 | [TUF](tuf.md) | Browse, download, and play TUF community levels and level packs without leaving the game, and manage the library you've downloaded. |
 
-## Others
-
-| Feature | What it does |
-|---------|--------------|
-| [Discord](discord.md) | Log in to Discord, browse servers and DMs, send messages, and join voice chat, from inside the game. |
-
 ## Addons
 
 | Feature | What it does |
 |---------|--------------|
 | [Addons](addons.md) | Load community-made addons that add their own settings pages, stat panels, and text tags. |
-
-## Help
-
-| Feature | What it does |
-|---------|--------------|
-| [Help](help.md) | A built-in FAQ you can rewrite — the questions live in a file you can edit and reload in-game. |

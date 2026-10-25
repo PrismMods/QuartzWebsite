@@ -2,15 +2,17 @@
 
 Quartz is a mod for **A Dance of Fire and Ice** that puts gameplay overlays, editor tools, and visual tweaks in a single in-game menu.
 
-Every feature is a module you install, remove, or switch off from inside the game, so you only carry what you use — see [Modules](features/modules.md).
+Every feature is built in — there is nothing extra to download. You choose what runs from the **Features** tab, and a feature you switch off is fully unloaded — see [Features tab](features/features-tab.md).
 
-The **Home** tab is where the menu opens. It counts your installed modules, how many are running, your addons, and any module updates waiting — and each of those cards is also the way in, so clicking one opens the page it counts. When a Quartz update is available it says so in a banner across the top, with a button straight to **Settings**. The **Credits** tab lists the team, the mods Quartz has ported or drawn from, the testers, and the people who have supported it.
+The menu key (default ++alt+k++) opens the [Reorganize](features/reorganize.md) hub, where you drag overlays into place; press **Settings** there to open the menu itself. Categories sit in an icon sidebar on the left that expands when you hover it, and each category's pages are tabs under the top bar.
+
+The **Home** tab is where the menu opens. It shows how many features are on and how many addons you have, and each of those is also the way in, so clicking one opens the page it counts. When a Quartz update is available it says so in a banner across the top, with a button straight to **Settings**. The **Credits** tab lists the team, the mods Quartz has ported or drawn from, the testers, and the people who have supported it.
 
 <div class="grid cards" markdown>
 
 - **[Install](install.md)** — get Quartz running with MelonLoader or UnityModManager.
 - **[Troubleshooting](troubleshooting.md)** — fix the most common setup problems.
-- **[Modules](features/modules.md)** — add, remove, and switch features on and off in-game.
+- **[Features tab](features/features-tab.md)** — switch built-in features on and off in-game.
 - **[Features](features/index.md)** — what Quartz can do, one page per feature.
 
 </div>
@@ -50,17 +52,22 @@ Any toggle in the menu can have a key of its own. Right-click its row, press the
 
 A bound toggle can be flipped without opening the menu at all — including mid-run — so things you switch often, like an overlay or a restriction, are one keypress away.
 
+## Starting over
+
+The **Reset** card on **Home** has two buttons. **Reset All Settings** puts every setting back to the defaults of a fresh install. **Clean** does the same and also empties your key layouts, panels and key lists, for when you want to build a setup from nothing. Your feature switches, addons and other profiles stay as they are. Each button asks once — it changes to **Click again to confirm** — and then applies straight away; the card suggests restarting the game afterwards so everything picks up the change.
+
+## Turning Quartz off
+
+The power button at the bottom of the sidebar switches all of Quartz off and on in one press. While it's off, nothing Quartz does stays active in the game, and every page sits under a **Quartz is inactive** cover with a **Turn On** button, so settings can't be changed by accident.
+
 ## Language
 
-Quartz's menu ships in English, Korean, and Simplified Chinese. On its first launch it matches the language you play the game in — a Korean game gets Korean menus, with no trip to the settings — and stays on English when it ships no translation for that language. Switch at any time from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文) — and once you pick one by hand, Quartz keeps it and stops matching the game. Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to the game's own CJK font for the characters your font is missing.
+Quartz's menu ships in English, Korean, and Simplified Chinese. On its first launch it matches the language you play the game in — a Korean game gets Korean menus, with no trip to the settings — and stays on English when it ships no translation for that language. Switch at any time from the **Language** dropdown on the **Settings** page — each option is listed by its native name (English, 한국어, 简体中文) — and once you pick one by hand, Quartz keeps it and stops matching the game. Chinese text stays readable even when the font you've picked only covers Korean or Latin, because Quartz falls back to its bundled Noto Sans SC for the characters your font is missing — see [Fonts](features/in-game-overlay.md).
 
-Translations keep themselves up to date. The languages bundled with your build load immediately, so the menu never waits on the network; in the background Quartz then checks the community translation repo, [Quartz-i18n](https://github.com/PrismMods/Quartz-i18n), and quietly folds in anything newer. A corrected Korean string reaches you without waiting for a Quartz release, and a language added to that repo shows up in the dropdown on its own. **Reload** forces the check immediately and re-applies the result.
-
-!!! note
-    If the check can't run — no connection, or GitHub unreachable — the bundled translations simply stay in place and nothing changes. The zips always carry a full set, so Quartz is fully usable offline.
+Translations ship with each build, so the menu is fully usable offline and never waits on the network. **Reload** next to the dropdown reads the language files again from disk.
 
 !!! tip "Translating Quartz"
-    Translations are community-maintained in [Quartz-i18n](https://github.com/PrismMods/Quartz-i18n) rather than in the mod repo, so improving a language — or adding a new one — doesn't mean waiting on a Quartz build.
+    Translations are community-maintained in [Quartz-i18n](https://github.com/PrismMods/Quartz-i18n). Improvements made there reach you with the next Quartz build.
 
 ## Links
 

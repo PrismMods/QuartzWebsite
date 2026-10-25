@@ -23,4 +23,5 @@ Colors, the gradient, and the outline carry across both.
 - **Background Color** and **Outline Color** / **Outline Thickness** for the rest of the bar.
 - **Corner Rounding**, **Height**, **Width**, and **Top Offset** for the bar's shape and placement.
 - **Pre-fill to Start Position** — when a run starts mid-chart (from a checkpoint, or play-testing in the editor), the bar starts already filled to that point instead of empty.
+- **Anchor** picks which screen point the bar is pinned to (see [Reorganize](reorganize.md)), and **Reset Position** puts it back where it started. Drag it into place in reorganize mode like any other overlay.
 - **Smooth Fill (Map Time)** — advance the bar by the chart's elapsed time instead of tiles completed, so the fill moves continuously every frame rather than stepping forward on each tile.

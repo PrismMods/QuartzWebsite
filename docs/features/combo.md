@@ -7,7 +7,7 @@ A combo counter overlay that tracks your current hit streak, with color, size, a
 Open the Quartz menu in-game and pick **Overlay → Combo** from the sidebar.
 
 !!! note
-    The **Enable Overlays** master switch at the top of the Overlay tab controls every overlay HUD — Panels, Progress Bar, Combo, Judgement, Song Title, and Key Viewer. Combo won't show if that's off.
+    The **Overlays** master switch on **Overlay → General** controls every overlay HUD — Panels, Progress Bar, Combo, Judgement, Song Title, and Key Viewer. Combo won't show if that's off.
 
 ## Highlights
 
@@ -18,4 +18,4 @@ Open the Quartz menu in-game and pick **Overlay → Combo** from the sidebar.
 - **Combo Counts Auto Hits** — include autoplay-driven hits in the combo count.
 
 !!! tip
-    Drag Combo (and every other overlay) into place with the **Reorganize** button at the top of the Overlay tab.
+    Drag Combo (and every other overlay) into place in [Reorganize](reorganize.md) mode — press the menu key to open it.

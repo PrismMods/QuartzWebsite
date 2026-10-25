@@ -4,7 +4,7 @@ Extend Quartz with community addons — self-contained plugins that can add thei
 
 ## Where to find it
 
-Open the Quartz menu in-game and pick **Modules → Addons** from the sidebar. Every addon you have installed is listed there, and that is where you add, reload, and remove them.
+Open the Quartz menu in-game and pick **Features → Addons** from the sidebar. Every addon you have installed is listed there, and that is where you add, reload, and remove them.
 
 ## Installing an addon
 
@@ -35,7 +35,7 @@ An addon that publishes its releases on GitHub can tell Quartz where to look: wh
 
 ## Addon pages
 
-An addon can register its own settings page. When it does, that page appears under **Addons** in the sidebar next to the built-in ones, so an addon's options live in the same menu as everything else. An addon can instead ask for its own top-level entry in the sidebar, alongside the built-in categories, if it doesn't want to live under Addons. Addons can also add [Panels](panels.md) stats and text tags for use in your overlays.
+An addon can register its own settings page. When it does, that page appears as a tab under **Features**, after **Addons**, so an addon's options live in the same menu as everything else. An addon can instead ask for its own top-level entry in the sidebar, alongside the built-in categories, if it doesn't want to live under Features. Addons can also add [Panels](panels.md) stats and text tags for use in your overlays.
 
 ## Writing an addon
 

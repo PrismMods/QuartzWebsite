@@ -11,14 +11,14 @@ Open the Quartz menu in-game and pick **Overlay → Panels** from the sidebar.
 - **Create Panel** — makes a new empty panel; name it, then use **+ Add Stat** to pick from every stat Quartz exposes (accuracy, X-accuracy, X-Score, KPS, Auto KPS, BPM (current/target), progress, timing scale, holds, checkpoints, attempt/best/total-attempts, map time, music time, pitch, FPS, a custom **Text** row you write yourself, or an **Image**).
 - **X-Score** — the game's X-Score, followed by `(MAX-n)`: how many points you've already lost against a perfect run, updated live. Starting partway through a level in the editor doesn't count the skipped tiles as lost. Shows only on ADOFAI versions with X-Score, while the game's own X-Score display is turned on.
 - **Image** — puts a picture in a panel. Pick one with **Choose Image** (PNG or JPG), or type a file name straight into the row. **Open Images Folder** opens the `PanelImages` folder Quartz keeps for this; anything in there can be named by file name alone, so a panel setup you hand to someone else still finds the picture on their machine, while a full path works if you'd rather leave the file where it is. **Image Size** scales the picture against that panel's font size. An image is a row like any other — it drags to reorder, hides with its checkbox, and lines up with your stats in the same panel.
-- **Anchor** — pins a panel to one of nine screen positions (corners, edges, center); position, font size, line spacing, and prefix are all per-panel.
+- **Anchor** — pins a panel to one of nine screen positions (corners, edges, center), or **Closest** to follow whichever is nearest as you move it; position, font size, line spacing, and prefix are all per-panel.
 - **Layer order** — when panels overlap, drag a panel's row in the list to change which one draws on top.
 - **Background Panel** — an optional fill behind a panel's text, with its own color and opacity.
 - **Per-stat color** — tint an individual stat's value. Stats that run over a range — accuracy, X-accuracy, progress, KPS, BPM, map/music time, best — take a gradient across that range, with an optional override color for a perfect (100%) result. The rest (holds, checkpoints, attempts, FPS, pitch, **Text**, **Image**) have no range to blend along, so they take a single flat color instead — on an **Image** that color tints the picture.
 - **Localize Stat Labels** — off keeps a panel's stat labels in English (X-Acc, Max X-Acc, …) regardless of the UI language; on follows it.
 
 !!! tip
-    Drag panels into place with the **Reorganize** button at the top of the Overlay tab, same as any other overlay.
+    Drag panels into place in [Reorganize](reorganize.md) mode, same as any other overlay.
 
 !!! note
     Past 10 panels in one place, Quartz shows a reminder that having that many can affect performance. It's just a heads-up — you can keep adding panels past it.

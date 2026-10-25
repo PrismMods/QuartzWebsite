@@ -16,7 +16,15 @@ Up to `v2.0.0-alpha-124` and `v2.0.0-beta-6`, UnityModManager installs moved Qua
 
 ## The game starts but settings are missing
 
-Open the in-game Quartz menu with the mod's keybind (default: `ALT + K`). For UMM installs, Quartz settings live in the Quartz menu rather than inside the UMM panel.
+Press the mod's keybind (default ++alt+k++). It opens the reorganize hub first — press **Settings** there to open the menu itself. For UMM installs, Quartz settings live in the Quartz menu rather than inside the UMM panel.
+
+## A feature's page says it is off
+
+Every feature can be switched off, and a switched-off feature keeps its tab with a **Turn On** button. Press it, or switch the feature on in the [Features tab](features/features-tab.md). If a feature failed to load, its row there shows the error — include it when you report the problem.
+
+## Every page says "Quartz is inactive"
+
+Quartz itself is switched off. Press **Turn On** on the cover, or the power button at the bottom of the sidebar.
 
 ## A setting resets or goes missing after a restart
 
@@ -27,26 +35,6 @@ If the same setting keeps resetting, the log line is the thing to include when y
 ## The game keeps loading an old version
 
 Restart Steam and confirm only one Quartz package is installed. Remove any leftover `Koren.dll` from older installs — Quartz migrates old Koren data automatically, but the old DLL itself should not stay loaded.
-
-## A fix shipped but the feature still behaves the old way
-
-Compare the module's version, shown on its row under **Modules → All Modules**, with the Quartz version on **Home**. Builds up to `v2.0.0-alpha-102` wrote a module into your install only once, so a module could sit several builds behind the mod around it and never receive a fix that shipped inside it.
-
-`v2.0.0-alpha-103` and newer refresh your modules whenever Quartz updates. The repair lives in the mod rather than in the modules, though, so an install that is already behind catches up on the update *after* the one that brings it in. To fix a single module right away, **Remove** it and install it again — the copy inside your download goes back in, with your settings intact.
-
-## A module offers an update to an older version
-
-If a row reads `v2.0.0-alpha-103` with an update waiting for `v2.0.0-alpha-102`, the module list is comparing against a catalog that has fallen behind your install. On `v2.0.0-alpha-103` this offer was real and taking it put the older file back, so leave it alone and update Quartz itself to `v2.0.0-alpha-104` or newer, where only a genuinely newer build is ever offered.
-
-Press **Refresh** on **Modules → All Modules** to pull the catalog again if a row still looks wrong afterwards.
-
-## A module never updates and sits on a version from another channel
-
-Check the module's version on its row under **Modules → All Modules**. If it reads a channel your Quartz is not on — a `beta` version next to an `alpha` install, or the reverse — that module was installed while you were on the other channel and then stopped receiving updates entirely.
-
-Builds before `v2.0.0-alpha-127` and `v2.0.0-beta-8` ranked any beta build above any alpha one, whatever channel Quartz itself was running. A module from the other channel therefore looked newer than every build that came after it, so no update was ever offered and the module quietly stayed behind — far enough, in one report, to be missing weeks of fixes while the rest of the install was current.
-
-From `v2.0.0-alpha-127` and `v2.0.0-beta-8` on, modules follow the channel your Quartz is on, and a stuck module is picked up on the next launch. The repair ships in the mod rather than in the modules, so update Quartz first. To fix one immediately on an older build, **Remove** the module under **Modules** and install it again; your settings are kept.
 
 ## Quartz did not update itself at launch
 

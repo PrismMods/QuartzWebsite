@@ -4,7 +4,7 @@ Rounds the outer corner of every tile turn. A Dance of Fire and Ice only rounds 
 
 ## Where to find it
 
-Open the Quartz menu in-game and pick **Visuals → Tile Arc** from the sidebar. Turn on **Enable Tile Arc** to apply it — tiles already on screen update straight away.
+Open the Quartz menu in-game and pick **Visuals → Tile Arc** from the sidebar. Turn on **Use this feature** at the top of the page to apply it — tiles already on screen update straight away.
 
 ## Settings
 

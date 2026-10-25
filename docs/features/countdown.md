@@ -4,7 +4,7 @@ Slows down the countdown you get when a run starts from a checkpoint or from a m
 
 ## Where to find it
 
-Open the Quartz menu in-game and pick **Gameplay → Countdown** from the sidebar. Turn on **Enable Countdown** to use it — off, the game's own countdown is used.
+Open the Quartz menu in-game and pick **Gameplay → Countdown** from the sidebar. Turn on **Use this feature** at the top of the page to use it — off, the game's own countdown is used.
 
 ## How it works
 

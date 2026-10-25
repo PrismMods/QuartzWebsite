@@ -17,7 +17,7 @@ Quartz ships a full package and a standalone Key Viewer package for each loader.
 1. Download the [modlist.org app](https://github.com/modlist-org/modlist_org_app/releases/latest) and the MelonLoader package you want from the table above.
 2. If MelonLoader isn't installed yet, install it through the modlist.org app.
 3. Press **Install Mod From File** and select the zip you downloaded.
-4. Done — start the game and open the menu. Full Quartz opens its regular menu; the standalone edition opens directly to Key Viewer.
+4. Done — start the game and press the menu key (default ++alt+k++). Full Quartz opens the [Reorganize](features/reorganize.md) hub, where **Settings** opens the menu; the standalone edition opens directly to Key Viewer.
 
 !!! tip "macOS"
     There is an [auto installer](https://github.com/sbrothers7/UMMInstall/releases/latest) for Mac users. After installing, press **Copy Native Launch Options** in the modlist.org app's *Installed* tab and paste it into your Steam launch arguments.
@@ -54,7 +54,7 @@ The standalone edition contains the Key Viewer and the overlay support it needs,
 
 ## Updating
 
-Since `v2.0.0-alpha-113`, Quartz updates itself. When the game starts, it checks for a new release on your channel, downloads it, and loads it in the same launch — there is nothing to click and nothing to reinstall. A new build only becomes your current one after it starts cleanly; one that fails to start is rolled back automatically and skipped until the next release. Your settings, profiles, and modules are untouched, and shipped files like translations refresh on their own.
+Since `v2.0.0-alpha-113`, Quartz updates itself. When the game starts, it checks for a new release on your channel, downloads it, and loads it in the same launch — there is nothing to click and nothing to reinstall. A new build only becomes your current one after it starts cleanly; one that fails to start is rolled back automatically and skipped until the next release. Your settings, profiles, and feature switches are untouched, and shipped files like translations refresh on their own.
 
 The launch-time check follows the same channel and skipped-version choices as the in-app updater (see below). To turn it off entirely, set `"Enabled": false` in `UserData/Quartz/Runtime/update.json` (UnityModManager: `Quartz/Runtime/update.json` in the mods directory).
 
@@ -63,7 +63,7 @@ The launch-time check follows the same channel and skipped-version choices as th
 
 You can still update by hand: download the newest package for the same edition and loader, then install it the same way you did the first time. If the game keeps loading the old version, restart Steam and confirm only one copy of that package is installed.
 
-With full Quartz, your features come across untouched: the first launch after updating reads the settings you already have and installs the matching modules for you, using copies inside the download rather than the network. From then on you manage them yourself in the **Modules** tab, and every later update refreshes any module it carries a newer copy of — see [Modules](features/modules.md). The standalone edition keeps its fixed Key Viewer modules and follows the standalone updater package instead.
+Every feature ships inside the package, so an update brings all of them up to date at once and there is nothing else to download. The features you had switched on stay on — see [Features tab](features/features-tab.md). The standalone edition keeps its fixed Key Viewer feature set and follows the standalone updater package instead.
 
 ### Choosing which builds you get
 
@@ -78,4 +78,4 @@ An installed update only takes effect the next time the game starts. Once one fi
 If it can't work out how to relaunch, it says so and leaves the game running, so you can close and reopen it yourself. Nothing is lost either way — the update is already on disk and applies on the next launch.
 
 !!! note
-    Quartz's in-app updater checks a downloaded update against its published checksum before installing, so a corrupted or interrupted download can't be applied. The install itself is staged and rolls back on failure, so an update that goes wrong partway leaves your current version untouched. If it reports a verification failure, just try the update again.
+    Quartz's in-app updater checks a downloaded update against its published checksum before installing, so a corrupted or interrupted download can't be applied, and an update published without a checksum is refused. The install itself is staged and rolls back on failure, so an update that goes wrong partway leaves your current version untouched. If it reports a verification failure, just try the update again.

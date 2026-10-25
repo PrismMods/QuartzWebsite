@@ -75,7 +75,7 @@ nav:
       - Troubleshooting: troubleshooting.md
   - Features:
       - features/index.md
-      - Modules: features/modules.md
+      - Features tab: features/features-tab.md
       - Overlays & HUD:
           - Key Viewer: features/key-viewer.md
           - Combo: features/combo.md
@@ -83,7 +83,8 @@ nav:
           - Progress Bar: features/progress-bar.md
           - Song Title: features/song-title.md
           - Panels: features/panels.md
-          - Too Much Accuracy: features/accuracy.md
+          - Reorganize: features/reorganize.md
+          - Fonts: features/in-game-overlay.md
       - Editor: features/editor.md
       - Visual & Gameplay tweaks:
           - Planet Colors: features/planet-colors.md
@@ -94,11 +95,10 @@ nav:
           - Tile Arc: features/tile-arc.md
           - Tweaks: features/tweaks.md
           - Optimizer: features/optimizer.md
-          - In-Game Overlay Fonts: features/in-game-overlay.md
       - Input & Restrictions:
           - Key Limiter: features/key-limiter.md
           - Restriction: features/restriction.md
-          - Chatter Blocker: features/chatter-blocker.md
+          - AntiChatter: features/antichatter.md
           - Calibration: features/calibration.md
           - Practice Difficulty: features/practice.md
           - Countdown: features/countdown.md
@@ -106,7 +106,4 @@ nav:
           - Profiles: features/profiles.md
           - Auto Deafen: features/auto-deafen.md
       - TUF: features/tuf.md
-      - Others:
-          - Discord: features/discord.md
       - Addons: features/addons.md
-      - Help: features/help.md
