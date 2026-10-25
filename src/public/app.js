@@ -3,9 +3,10 @@ const loaderTabs = document.querySelector(".loader-tabs");
 const loaderButtons = [...document.querySelectorAll("[data-loader]")];
 // Screenshot carousel slides — add new preview images here, one entry per slide.
 const screenshots = [
-  { src: "assets/mainmenu.png", caption: "Main Menu" },
+  { src: "assets/reorganize.png", caption: "Reorganize Hub" },
+  { src: "assets/credits.png", caption: "Credits Screen" },
   { src: "assets/ingame.png", caption: "In-Game HUD" },
-  { src: "assets/credits.png", caption: "Credits Screen" }
+  { src: "assets/settings.png", caption: "Settings Window" }
 ];
 let isInstallVisible = false;
 let currentLoader = "";
