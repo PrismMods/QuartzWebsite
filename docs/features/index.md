@@ -50,9 +50,8 @@ Under the **Gameplay** category in the sidebar, except Calibration, which is a p
 
 | Feature | What it does |
 |---------|--------------|
-| [Key Limiter](key-limiter.md) | Restrict which keyboard keys count as gameplay input. |
+| [Key Limiter](key-limiter.md) | Restrict which keyboard keys count as gameplay input, and block keyboard chatter. |
 | [Restriction](restriction.md) | Fail a run early on a judgement rule or a miss/overload cap. |
-| [AntiChatter](antichatter.md) | Filter double inputs from a chattering key, and keep a bouncing hold from breaking. |
 | [Calibration](calibration.md) | Tune your input offset from real play — on-death popup, decimal offset, detailed readout, and per-map timing history. |
 | [Practice Difficulty](practice.md) | Bind keys to a difficulty and a pitch, and switch between them without leaving the level. |
 | [Countdown](countdown.md) | Slow the checkpoint and editor play-test countdown into a lead-in you can actually count. |

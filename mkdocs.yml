@@ -85,7 +85,6 @@ nav:
       - Input & Restrictions:
           - Key Limiter: features/key-limiter.md
           - Restriction: features/restriction.md
-          - AntiChatter: features/antichatter.md
           - Calibration: features/calibration.md
           - Practice Difficulty: features/practice.md
           - Countdown: features/countdown.md

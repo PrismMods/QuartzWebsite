@@ -27,7 +27,7 @@ Presets are ready-made profiles that ship with Quartz. **Apply** one to bring in
 | Preset | What it's set up for |
 |--------|----------------------|
 | **Refreshin** | A clean, pared-back look. |
-| **JeulGemi** | Casual play: Auto Deafen, AntiChatter, a compact judgement row with X-Perfect shown, a 16-key limiter, overlay panels, and a slim progress bar. |
+| **JeulGemi** | Casual play: Auto Deafen, a compact judgement row with X-Perfect shown, a 16-key limiter, overlay panels, and a slim progress bar. |
 
 A preset carries the look, not the author — applying one leaves your interface language alone.
 
